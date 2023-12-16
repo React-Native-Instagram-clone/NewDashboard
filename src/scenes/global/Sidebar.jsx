@@ -149,7 +149,7 @@ const Sidebar = () => {
             />
             <Item
               title="File Upload Utility"
-              to="/invoices"
+              to="/insert"
               icon={<FileUploadIcon />}
               selected={selected}
               setSelected={setSelected}

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import "react-pro-sidebar/dist/css/styles.css";
 import { tokens } from "../../theme";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
+/* import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined"; */
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
 import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
@@ -17,6 +17,7 @@ import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import FileUploadIcon from '@mui/icons-material/FileUpload';
+import EmailIcon from '@mui/icons-material/Email';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -135,8 +136,8 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Email Utility"
-              to="/team"
-              icon={<PeopleOutlinedIcon />}
+              to="/emailutility"
+              icon={<EmailIcon />}
               selected={selected}
               setSelected={setSelected}
             />

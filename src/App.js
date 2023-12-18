@@ -3,11 +3,12 @@ import { Routes, Route } from "react-router-dom";
 import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
-
+import './App.css'
 import Form from "./scenes/form";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Insert from "./components/Insert";
+import EmailUtility from './components/Email'
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -26,12 +27,14 @@ function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/form" element={<Form />} />
               <Route path="/insert" element={<Insert />} />
-        
+              <Route path="/emailutility" element={<EmailUtility />} />
+              
             </Routes>
           </main>
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>
+    
   );
 }
 

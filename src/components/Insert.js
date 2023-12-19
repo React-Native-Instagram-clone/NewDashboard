@@ -42,7 +42,7 @@ const Insert = () => {
 
         // Update the following axios.post call to handle success and failure
         axios
-          .post("http://localhost:8000/api/create", { values: values })
+          .post("http://dashboard-server-esamyak.vercel.app/api/create", { values: values })
           .then(() => {
             setUploadStatus(true); // Set to true for success
           })

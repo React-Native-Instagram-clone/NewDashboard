@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
+import { Editor } from "@tinymce/tinymce-react";
 
 const EmailUtility = () => {
   const [to, setTo] = useState("");
@@ -10,6 +11,13 @@ const EmailUtility = () => {
   const [subject, setSubject] = useState("");
   const [html, setHtml] = useState("");
   const [attachment, setAttachment] = useState(null);
+  const editorRef = useRef(null);
+
+  const log = () => {
+    if (editorRef.current) {
+      console.log(editorRef.current.getContent());
+    }
+  };
 
   const handleSendEmail = async () => {
     const formData = new FormData();
@@ -112,17 +120,29 @@ const EmailUtility = () => {
           onChange={(e) => setSubject(e.target.value)}
         />
       </div>
-      <div className="mb-4">
-        <textarea
-          id="html"
-          rows="4"
-          className="mt-1 p-2 border rounded w-full text-lg text-gray-800"
-          placeholder="Message"
-          value={html}
-          onChange={(e) => setHtml(e.target.value)}
-        />
-      </div>
-
+      <Editor
+        apiKey="mcmfzrzm2kpz6gs4rnyy2wp3neiamc4l9edser2idkd2yshj"
+        onInit={(evt, editor) => (editorRef.current = editor)}
+        initialValue={html}
+        value={html}
+        //onSelectionChange={() => setHtml(editorRef.current.getContent())}
+        init={{
+          height: 200,
+          menubar: false,
+          plugins: [
+            "advlist autolink lists link image charmap print preview anchor",
+            "searchreplace visualblocks code fullscreen",
+            "insertdatetime media table paste code help wordcount",
+          ],
+          toolbar:
+            "undo redo | formatselect | " +
+            "bold italic backcolor | alignleft aligncenter " +
+            "alignright alignjustify | bullist numlist outdent indent | " +
+            "removeformat | help",
+          content_style:
+            "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }",
+        }}
+      />
       <div className="mb-4 flex items-center">
         <label
           htmlFor="attachment"
@@ -146,7 +166,6 @@ const EmailUtility = () => {
           <span className="ml-2 text-gray-800">{attachment.name}</span>
         )}
       </div>
-
       <button
         className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600"
         onClick={handleSendEmail}

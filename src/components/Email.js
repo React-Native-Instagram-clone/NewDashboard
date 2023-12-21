@@ -126,7 +126,7 @@ const EmailUtility = () => {
       <Editor
         apiKey="mcmfzrzm2kpz6gs4rnyy2wp3neiamc4l9edser2idkd2yshj"
         onInit={(evt, editor) => (editorRef.current = editor)}
-        initialValue={html}
+        // initialValue={html}   reverse order entry is resolved
         value={html}
         onEditorChange={(value) => setHtml(value)}
         init={{

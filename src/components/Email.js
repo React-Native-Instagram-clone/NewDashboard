@@ -19,6 +19,8 @@ const EmailUtility = () => {
     }
   };
 
+  log()
+
   const handleSendEmail = async () => {
     const formData = new FormData();
     formData.append("to", to);
@@ -30,9 +32,10 @@ const EmailUtility = () => {
 
     try {
       const response = await fetch(
-        "https://dashboard-server-esamyak.vercel.app/email",
+        "https://dashboard-server-eight.vercel.app/email",
         {
           method: "POST",
+          cors: "no-cors",
           body: formData,
         }
       );
@@ -62,13 +65,13 @@ const EmailUtility = () => {
       <ToastContainer />
       <div className="mb-4 flex items-center">
         <label
-          htmlFor="cc"
+          htmlFor="to"
           className="font-semibold text-lg text-black absolute px-5 pt-0.5"
         >
           To:
         </label>
         <input
-          type="text"
+          type="email"
           id="to"
           className="mt-1 p-2 border rounded w-full text-lg text-gray-800 pl-14"
           value={to}
@@ -83,7 +86,7 @@ const EmailUtility = () => {
           Cc:
         </label>
         <input
-          type="text"
+          type="email"
           id="cc"
           className="mt-1 p-2 border rounded w-full text-lg text-gray-800 pl-14"
           value={cc}
@@ -92,13 +95,13 @@ const EmailUtility = () => {
       </div>
       <div className="mb-4 flex items-center">
         <label
-          htmlFor="cc"
+          htmlFor="bcc"
           className="font-semibold text-lg text-black absolute px-5 pt-0.5"
         >
           Bcc:
         </label>
         <input
-          type="text"
+          type="email"
           id="bcc"
           className="mt-1 p-2 border rounded w-full text-lg text-gray-800 pl-14"
           value={bcc}
@@ -125,7 +128,7 @@ const EmailUtility = () => {
         onInit={(evt, editor) => (editorRef.current = editor)}
         initialValue={html}
         value={html}
-        //onSelectionChange={() => setHtml(editorRef.current.getContent())}
+        onEditorChange={(value) => setHtml(value)}
         init={{
           height: 200,
           menubar: false,

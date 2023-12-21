@@ -4,7 +4,7 @@ import * as yup from "yup";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
-
+import LoginPic from "../../assets/login.svg"
 const Form = () => {
     const isNonMobile = useMediaQuery("(min-width:600px)");
 
@@ -33,9 +33,9 @@ const Form = () => {
                         <Box
                             display='grid'
                             gap="30px"
-                            gridTemplateColumns={isNonMobile ? "1fr 1fr" : "1fr"}
+                            gridTemplateColumns={isNonMobile ? "1fr 2fr" : "1fr"}
                         >
-                        <h1>Image or a GIF-animation to go here</h1>
+                        <img src={LoginPic} alt='login-pic' width={350}/>
                             <Box
                                 display="grid"
                                 gap="30px"

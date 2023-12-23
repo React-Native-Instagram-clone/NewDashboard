@@ -18,6 +18,7 @@ import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import FileUploadIcon from '@mui/icons-material/FileUpload';
 import EmailIcon from '@mui/icons-material/Email';
+import DiamondOutlinedIcon from '@mui/icons-material/DiamondOutlined';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -185,16 +186,16 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Calendar"
-              to="/calendar"
+              title="View Data of Jwellery"
+              to="/jwellery"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="FAQ Page"
-              to="/faq"
-              icon={<HelpOutlineOutlinedIcon />}
+              title="View Data of Diamond"
+              to="/diamond"
+              icon={<DiamondOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />

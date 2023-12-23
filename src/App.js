@@ -10,6 +10,8 @@ import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Insert from "./components/Insert";
 import EmailUtility from './components/Email'
+import JwelleryGrid from "./AgGrid/JwelleryGrid";
+import DiamondGrid from "./AgGrid/DiamondGrid";
 
 function App() {
   const [theme, colorMode] = useMode();
@@ -30,13 +32,14 @@ function App() {
               <Route path="/login" element={<LoginForm />} />
               <Route path="/insert" element={<Insert />} />
               <Route path="/emailutility" element={<EmailUtility />} />
-              
+              <Route path='/jwellery' element={<JwelleryGrid />} />
+              <Route path ='diamond' element={<DiamondGrid/>}/>
             </Routes>
           </main>
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>
-    
+
   );
 }
 

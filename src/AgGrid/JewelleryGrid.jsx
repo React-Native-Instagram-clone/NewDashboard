@@ -4,7 +4,7 @@ import "ag-grid-community/styles/ag-grid.css"; // Core CSS
 import "ag-grid-community/styles/ag-theme-quartz.css"; // Theme
 import { JwelleryColsDefs, JwelleryData } from '../assets/JewelleryData';
 
-const JwelleryGrid = () => {
+const JewelleryGrid = () => {
 
   const [rowData, setRowData] = useState(JwelleryData);
 
@@ -25,4 +25,4 @@ const JwelleryGrid = () => {
   )
 }
 
-export default JwelleryGrid
+export default JewelleryGrid

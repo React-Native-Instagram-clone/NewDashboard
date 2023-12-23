@@ -10,7 +10,7 @@ const JwelleryColsDefs = [
         showDisabledCheckboxes: true,
     },
     {
-        field: 'jwelleryType',
+        field: 'jewelleryType',
         filter: true,
         floatingFilter: true,
         editable:true,
@@ -63,7 +63,7 @@ const JwelleryData = [
 
     {
         "itemNos": 1,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Tiffany",
         "detail": "Schlumberger Bangle",
         "metal": "K18",
@@ -72,7 +72,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 2,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Tiffany",
         "metal": "SV925",
         "grossWt": 74.2,
@@ -81,7 +81,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 3,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Cartier",
         "Size #": 18,
         "detail": "Love Full Diamond",
@@ -92,7 +92,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 4,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Boucheron",
         "detail": "Tourble",
         "metal": "K18",
@@ -101,7 +101,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 5,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Gucci",
         "detail": "ICON",
         "metal": "K18",
@@ -110,7 +110,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 6,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "KNOT",
         "metal": "K18",
@@ -120,7 +120,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 7,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "T SMILE LARGE",
         "metal": "K18YG",
@@ -130,7 +130,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 8,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "CICLADI",
         "metal": "K18WG",
@@ -140,7 +140,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 9,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "Akoya Pearl - 6.0-7.8mm",
         "metal": "SV925",
@@ -150,7 +150,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 10,
-        "jwelleryType": "Cuffs",
+        "jewelleryType": "Cuffs",
         "Brand": "Grisogono",
         "detail": "BLACK DIA",
         "metal": "K18PG",
@@ -159,7 +159,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 11,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "DIVA DREAM Diamond",
         "metal": "K18WG",
@@ -169,7 +169,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 12,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "ROMAN SORBET Colour Stone",
         "metal": "K18WG",
@@ -178,7 +178,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 13,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "JAZZ GRADUATED Diamond",
         "metal": "PT950",
@@ -187,7 +187,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 14,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "PALOMA PICASSO Diamond",
         "metal": "K18WG",
@@ -196,7 +196,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 15,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Piaget",
         "detail": "LIME HEART Diamond",
         "metal": "K18YG",
@@ -205,7 +205,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 16,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "OVAL KEY Diamond",
         "metal": "PT950",
@@ -215,7 +215,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 17,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Louis Vuitton",
         "detail": "STAR BLOSSOM",
         "metal": "K18",
@@ -225,7 +225,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 18,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Chopard",
         "Size #": 12,
         "metal": "K18",
@@ -234,7 +234,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 19,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "Diamond",
         "metal": "K18",
@@ -244,7 +244,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 20,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Cartier",
         "detail": "DIAMANTS LEGERS Diamond 0.09ct",
         "metal": "K18PG",
@@ -254,7 +254,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 21,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 9,
         "detail": "KNOT Diamond",
@@ -265,7 +265,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 22,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Parade",
         "Size #": 13,
         "detail": "Diamond",
@@ -275,7 +275,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 23,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 11,
         "detail": "Rutile + Diamond",
@@ -286,7 +286,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 24,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 55,
         "detail": "E58900",
@@ -296,7 +296,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 25,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 12.5,
         "detail": "T Diamond",
@@ -307,7 +307,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 26,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Gucci",
         "Size #": 13,
         "metal": "SV925",
@@ -316,7 +316,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 27,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 61,
         "detail": "LEGEND",
@@ -327,7 +327,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 28,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 52,
         "detail": "TRINITY",
@@ -338,7 +338,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 29,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 22,
         "detail": "CENTURY Diamond",
@@ -348,7 +348,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 30,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 61,
         "detail": "B-zero1",
@@ -358,7 +358,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 31,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Piaget",
         "detail": "HEART Torquoise",
         "metal": "K18WG",
@@ -368,7 +368,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 32,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Cartier",
         "detail": "MEPRAT",
         "metal": "K18WG",
@@ -378,7 +378,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 33,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Vancleef&Ar pels",
         "detail": "ALHAMBRA Carnelian",
         "metal": "K18PG",
@@ -387,7 +387,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 34,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "MEDITERRANEA",
         "metal": "K18YG",
@@ -397,7 +397,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 35,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "B-zero1",
         "metal": "K18",
@@ -407,7 +407,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 36,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Mikimoto",
         "detail": "Akoya Pearl -  4.5-8.0mm",
         "metal": "SV925",
@@ -416,7 +416,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 37,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "SEVILLANA",
         "metal": "K18",
@@ -425,7 +425,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 38,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Cartier",
         "detail": "LOVE",
         "metal": "K18WG",
@@ -434,7 +434,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 39,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Vancleef&Ar pels",
         "detail": "VINTAGE ALHAMBRA",
         "metal": "K18",
@@ -444,7 +444,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 40,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Cartier",
         "detail": "TRINITY",
         "metal": "K18",
@@ -453,7 +453,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 41,
-        "jwelleryType": "Cuffs",
+        "jewelleryType": "Cuffs",
         "Brand": "Tiffany",
         "metal": "K14",
         "grossWt": 13.1,
@@ -461,7 +461,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 42,
-        "jwelleryType": "Pierce",
+        "jewelleryType": "Pierce",
         "Brand": "Vancleef&Ar pels",
         "detail": "ALHAMBRA",
         "metal": "K18",
@@ -471,7 +471,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 43,
-        "jwelleryType": "Pin",
+        "jewelleryType": "Pin",
         "Brand": "Cartier",
         "detail": "LADYBIRD",
         "metal": "K18",
@@ -480,7 +480,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 44,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Cartier",
         "metal": "K18",
         "grossWt": 17.6,
@@ -489,7 +489,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 45,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Tiffany",
         "detail": "BOW Diamond",
         "metal": "PT950",
@@ -498,7 +498,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 46,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Cartier",
         "detail": "AMULETTE Diamond",
         "metal": "K18",
@@ -507,7 +507,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 47,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Louis Vuitton",
         "detail": "PANDANTIF",
         "metal": "K18WG",
@@ -516,7 +516,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 48,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "DOTS Diamond",
         "metal": "PT950",
@@ -526,7 +526,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 49,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "INTER LOCKING CIRCLE Diamond",
         "metal": "K18WG",
@@ -535,7 +535,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 50,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "GARDEN FLOWER Diamond",
         "metal": "PT950",
@@ -544,7 +544,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 51,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Boucheron",
         "detail": "RIBON",
         "metal": "K18",
@@ -554,7 +554,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 52,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Chanel",
         "detail": "Cermaic Ultra Small",
         "metal": "K18",
@@ -563,7 +563,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 53,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Tiffany",
         "detail": "T WIRE",
         "metal": "K18WG",
@@ -572,7 +572,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 54,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Hermes",
         "detail": "ENAMEL",
         "metal": "Stainless Steel",
@@ -582,7 +582,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 55,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "B-zero1",
         "metal": "K18WG",
@@ -591,7 +591,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 56,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Cartier",
         "detail": "SPARTACUS",
         "metal": "K18WG",
@@ -600,7 +600,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 57,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "ETERNAL CIRCLE",
         "metal": "K18YG",
@@ -610,7 +610,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 58,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Bvlgari",
         "Size #": "M",
         "metal": "K18",
@@ -620,7 +620,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 59,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Cartier",
         "Size #": 17,
         "detail": "TRINITY",
@@ -631,7 +631,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 60,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "Brand": "Cartier",
         "detail": "TRINITY",
         "metal": "K18",
@@ -641,7 +641,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 61,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 59,
         "detail": "TANKFRANCAISE Diamond",
@@ -651,7 +651,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 62,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Vancleef&Ar pels",
         "detail": "Vintage Alhambra",
         "metal": "K18",
@@ -661,7 +661,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 63,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Gucci",
         "Size #": 11,
         "detail": "G Diamond",
@@ -671,7 +671,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 64,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 52,
         "detail": "B-zero1 Diamond",
@@ -682,7 +682,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 65,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 54,
         "detail": "Diamond",
@@ -693,7 +693,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 66,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Piaget",
         "Size #": 57,
         "detail": "Diamond",
@@ -703,7 +703,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 67,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Mikimoto",
         "Size #": 12.5,
         "detail": "Diamond-0.25 + Akoya Pearl",
@@ -713,7 +713,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 68,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Mila Schon",
         "Size #": 14,
         "detail": "Diamond-0.47",
@@ -723,7 +723,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 69,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 51,
         "detail": "B-zero1 Blue Topaz",
@@ -733,7 +733,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 70,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 48,
         "detail": "LOVE Diamond",
@@ -744,7 +744,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 71,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11.5,
         "detail": "DOT TWIST Diamond",
@@ -754,7 +754,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 72,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "OPEN HEART Diamond",
         "metal": "PT950",
@@ -763,7 +763,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 73,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "SEVILLANA Diamond",
         "metal": "PT950",
@@ -772,7 +772,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 74,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Cartier",
         "detail": "Etincelle Diamond",
         "metal": "K18",
@@ -782,7 +782,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 75,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "B'zero1",
         "metal": "K18PG",
@@ -791,7 +791,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 76,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "OPEN HEART Diamond",
         "metal": "K18",
@@ -801,7 +801,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 77,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Vancleef&Ar pels",
         "detail": "SWEET ALHAMBRA PAPILLON",
         "metal": "K18",
@@ -811,7 +811,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 78,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "CROSS SMALL Diamond 0.42ct",
         "metal": "K18",
@@ -820,7 +820,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 79,
-        "jwelleryType": "Earring",
+        "jewelleryType": "Earring",
         "Brand": "Tiffany",
         "metal": "K18",
         "grossWt": 10.9,
@@ -828,7 +828,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 80,
-        "jwelleryType": "Cuffs",
+        "jewelleryType": "Cuffs",
         "Brand": "Tiffany",
         "metal": "K18",
         "grossWt": 16.2,
@@ -836,7 +836,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 81,
-        "jwelleryType": "Pierce",
+        "jewelleryType": "Pierce",
         "Brand": "Cartier",
         "detail": "MINI HEART Diamond",
         "metal": "K18WG",
@@ -845,7 +845,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 82,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11,
         "detail": "Soleste Pink Sapphire + Diamond",
@@ -856,7 +856,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 83,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 51,
         "detail": "B-zero1",
@@ -867,7 +867,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 84,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 15,
         "detail": "T WIDE Diamond",
@@ -877,7 +877,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 85,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 50,
         "detail": "B-zero1 Diamond",
@@ -888,7 +888,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 86,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "detail": "B-zero1 Ceramic 57",
         "metal": "K18PG",
@@ -898,7 +898,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 87,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 61,
         "detail": "LOVE",
@@ -908,7 +908,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 88,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 53,
         "detail": "2C Diamond",
@@ -919,7 +919,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 89,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 55,
         "detail": "LOVE Diamond",
@@ -929,7 +929,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 90,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11,
         "detail": "CIRCLET Diamond",
@@ -940,7 +940,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 91,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Vancleef&Ar pels",
         "Size #": 12,
         "detail": "Magic Mala",
@@ -951,7 +951,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 92,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Hermes",
         "detail": "ENAMEL",
         "metal": "Stainless Steel",
@@ -960,7 +960,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 93,
-        "jwelleryType": "Pierce",
+        "jewelleryType": "Pierce",
         "Brand": "Cartier",
         "detail": "TRINITY HOOP",
         "metal": "K18YG\/WG\/P G",
@@ -970,7 +970,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 94,
-        "jwelleryType": "Pierce",
+        "jewelleryType": "Pierce",
         "Brand": "Tiffany",
         "detail": "T SMILE Diamond",
         "metal": "K18",
@@ -980,7 +980,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 95,
-        "jwelleryType": "Pierce",
+        "jewelleryType": "Pierce",
         "Brand": "Tiffany",
         "detail": "Smile",
         "metal": "K18",
@@ -989,7 +989,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 96,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Bvlgari",
         "detail": "BVLGARI BVLGARI Diamond",
         "metal": "K18PG",
@@ -999,7 +999,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 97,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Tiffany",
         "detail": "TWIST",
         "metal": "SV925",
@@ -1008,7 +1008,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 98,
-        "jwelleryType": "Earring",
+        "jewelleryType": "Earring",
         "Brand": "Vancleef&Ar pels",
         "detail": "ALHAMBRA",
         "metal": "K18WG",
@@ -1018,7 +1018,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 99,
-        "jwelleryType": "Cuffs",
+        "jewelleryType": "Cuffs",
         "Brand": "Breguet",
         "metal": "K18PG",
         "grossWt": 20.4,
@@ -1027,7 +1027,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 100,
-        "jwelleryType": "Cuffs",
+        "jewelleryType": "Cuffs",
         "Brand": "Bvlgari",
         "detail": "Bvlgari Cuffs",
         "metal": "K18YG",
@@ -1036,7 +1036,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 101,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Cartier",
         "Size #": 16,
         "detail": "LOVE",
@@ -1047,7 +1047,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 102,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Hermes",
         "detail": "ENAMEL",
         "metal": "Stainless Steel",
@@ -1057,7 +1057,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 103,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Tiffany",
         "Size #": 15,
         "detail": "Two T Diamond - 0.92",
@@ -1068,7 +1068,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 104,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Brand": "Tiffany",
         "detail": "T WIRE RUBY",
         "metal": "K18WG",
@@ -1078,7 +1078,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 105,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "Bvlgari",
         "metal": "K18",
@@ -1088,7 +1088,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 106,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Bvlgari",
         "detail": "Astrale Cerki Diamond",
         "metal": "K18",
@@ -1097,7 +1097,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 107,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Cartier",
         "detail": "HEART Diamond",
         "metal": "K18PG",
@@ -1107,7 +1107,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 108,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "CIRCLET MINI Diamond",
         "metal": "PT950",
@@ -1116,7 +1116,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 109,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Brand": "Tiffany",
         "detail": "RETURN TO",
         "metal": "K18WG",
@@ -1126,7 +1126,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 110,
-        "jwelleryType": "Brooch",
+        "jewelleryType": "Brooch",
         "Brand": "Tiffany",
         "detail": "Diamond",
         "metal": "K18WG\/YG",
@@ -1136,7 +1136,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 111,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "Brand": "Bvlgari",
         "detail": "OPTICAL",
         "Particulars": "Mother of Pearl",
@@ -1146,7 +1146,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 112,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "Brand": "Unoaerre",
         "detail": "COIN",
         "metal": "K18",
@@ -1156,7 +1156,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 113,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 12.5,
         "detail": "Aquamarine",
@@ -1167,7 +1167,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 114,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 67,
         "detail": "TANKFRANCAISE Diamond",
@@ -1177,7 +1177,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 115,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 53,
         "detail": "TRINITY Diamond",
@@ -1188,7 +1188,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 116,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Shaggie",
         "Size #": 12,
         "detail": "Diamond-0.90+0.37",
@@ -1198,7 +1198,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 117,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 59,
         "detail": "JUSTE UN CLOU",
@@ -1209,7 +1209,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 118,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Chaumet",
         "detail": "Green Garnet",
         "metal": "K18",
@@ -1218,7 +1218,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 119,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 52,
         "detail": "Anniversary Diamond",
@@ -1228,7 +1228,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 120,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 12.5,
         "detail": "ATLAS OPEN Diamond",
@@ -1238,7 +1238,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 121,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 13,
         "detail": "Diamond-0.50",
@@ -1248,7 +1248,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 122,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Vancleef&Ar pels",
         "Size #": 51,
         "detail": "WHITE SHELL+Diamond",
@@ -1259,7 +1259,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 123,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 13,
         "detail": "Soleste Tanzanite + Diamond",
@@ -1270,7 +1270,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 124,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Leo Pizzo",
         "Size #": 13,
         "detail": "Pink Sapphire + Diamond",
@@ -1280,7 +1280,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 125,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 53,
         "detail": "SERPENTI Diamond",
@@ -1291,7 +1291,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 126,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "metal": "K18YG\/WG\/P G",
         "grossWt": 9.2,
@@ -1299,7 +1299,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 127,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 52,
         "detail": "B-zero1",
@@ -1310,7 +1310,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 128,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 12,
         "detail": "Diamond - 0.09",
@@ -1320,7 +1320,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 129,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Louis Vuitton",
         "Size #": 57,
         "detail": "Diamond",
@@ -1331,7 +1331,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 130,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Gucci",
         "Size #": 11,
         "detail": "Icon Gucci",
@@ -1341,7 +1341,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 131,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 56,
         "detail": "Diamond + Colour Stone",
@@ -1352,7 +1352,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 132,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 13,
         "detail": "PARENTESI Diamond",
@@ -1362,7 +1362,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 133,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 55,
         "detail": "B Zero1 Diamond",
@@ -1373,7 +1373,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 134,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Chanel",
         "Size #": 52,
         "metal": "K18",
@@ -1382,7 +1382,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 135,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 52,
         "detail": "Diamond - 0.42",
@@ -1394,7 +1394,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 136,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Gucci",
         "Size #": 11,
         "detail": "ICON WIDE",
@@ -1404,7 +1404,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 137,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 56,
         "detail": "TRINITY WEDDING",
@@ -1414,7 +1414,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 138,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 52,
         "detail": "Juste Un Clou",
@@ -1424,7 +1424,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 139,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 13,
         "detail": "DOUBLE LOGO Diamond",
@@ -1435,7 +1435,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 140,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Boucheron",
         "Size #": 12,
         "detail": "Diamond",
@@ -1445,7 +1445,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 141,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 51,
         "detail": "ENTRELACE Diamond",
@@ -1456,7 +1456,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 142,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Boucheron",
         "Size #": 16.5,
         "detail": "Diamond",
@@ -1466,7 +1466,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 143,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11,
         "detail": "T TWO Diamond",
@@ -1476,7 +1476,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 144,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11.5,
         "detail": "T TWO Diamond",
@@ -1486,7 +1486,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 145,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 65,
         "detail": "B-zero1",
@@ -1496,7 +1496,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 146,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 13,
         "metal": "K18",
@@ -1505,7 +1505,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 147,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 54,
         "detail": "Diamond",
@@ -1515,7 +1515,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 148,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 52,
         "detail": "FIOREVER Diamond",
@@ -1526,7 +1526,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 149,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11,
         "detail": "T WIRE Diamond",
@@ -1537,7 +1537,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 150,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 13,
         "detail": "TUBOGAS",
@@ -1547,7 +1547,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 151,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Omega",
         "Size #": 51,
         "detail": "Diamond",
@@ -1558,7 +1558,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 152,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Chaumet",
         "Size #": 11.5,
         "detail": "Sapphire + Ruby",
@@ -1568,7 +1568,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 153,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11,
         "detail": "RIBON Diamond",
@@ -1579,7 +1579,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 154,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 56,
         "detail": "B-zero1 Diamond",
@@ -1589,7 +1589,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 155,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Vancleef&Ar pels",
         "detail": "ALHAMBRA Diamond",
         "metal": "K18",
@@ -1599,7 +1599,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 156,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 59,
         "detail": "B-zero1",
@@ -1609,7 +1609,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 157,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "detail": "PARIS Diamond I24646",
         "metal": "K18",
@@ -1618,7 +1618,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 158,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Tiffany",
         "Size #": 11,
         "detail": "T TWO",
@@ -1629,7 +1629,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 159,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Bvlgari",
         "Size #": 54,
         "detail": "B-zero1",
@@ -1640,7 +1640,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 160,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Brand": "Cartier",
         "Size #": 49,
         "detail": "LOVE Diamond",
@@ -1651,7 +1651,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 161,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Paraiba - 2.61 Diamond - 0.41+0.18",
         "Particulars": "Brazil \/ Bluish-Green \/ Heat",
@@ -1661,7 +1661,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 162,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 3.35 Diamond - 1.38",
         "Particulars": "Colombia \/ Int.To Viv. Green \/ Minor",
@@ -1672,7 +1672,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 163,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 12.73Diamond - 1.71",
         "Particulars": "Sri Lanka \/ Blue \/ Heat",
@@ -1682,7 +1682,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 164,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-13.31Diamond - 3.60",
         "Particulars": "Burma \/ Pinkish-Red \/ H(a)",
@@ -1692,7 +1692,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 165,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Sapphire - 17.124Diamond - 4.433",
         "Particulars": "No Heat",
@@ -1702,7 +1702,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 166,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Tanzanite - 44.43 Diamond - 1.75",
         "metal": "PT900",
@@ -1711,7 +1711,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 167,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 3.54 Diamond - 2.57",
         "metal": "Pt900",
@@ -1720,7 +1720,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 168,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Alexandrite-2.06 Diamond - 0.72",
         "metal": "Pt900",
@@ -1729,7 +1729,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 169,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 1.592 Diamond - 1.20",
         "Particulars": "**** \/ **** \/ No Oil",
@@ -1739,7 +1739,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 170,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Aquamarine-10.43Diamond - 0.38",
         "metal": "PT",
@@ -1748,7 +1748,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 171,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Demantoid Garnet - 4.27 Diamond - 3.13",
         "Particulars": "Ural(Russia) \/ Vived Yellowish Green \/ No Heat",
@@ -1758,7 +1758,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 172,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 36.93 Diamond - 8.22",
         "metal": "Pt900",
@@ -1767,7 +1767,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 173,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 11.55 Diamond - 0.98",
         "Particulars": "Sri Lanka \/ Royal Blue \/ H",
@@ -1777,7 +1777,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 174,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Padparadscha Sapphire - 4.11 Diamond - 1.80",
         "Particulars": "Sri Lanka \/ Pinkish Orange \/ Heat",
         "metal": "Pt900",
@@ -1786,7 +1786,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 175,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald - 6.90 Diamond - 1.27",
         "metal": "PT900",
         "grossWt": 11.9,
@@ -1794,7 +1794,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 176,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Black Opal - 8.15  Diamond - 1.59",
         "metal": "PT900",
@@ -1803,7 +1803,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 177,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 8.5,
         "detail": "Ruby-5.02 Diamond - 1.07",
         "Particulars": "Burma(Myanmar) \/ Pigeon Blood \/ H(b)",
@@ -1813,7 +1813,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 178,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Star Sapphire - 23.40 Diamond - 0.74+0.37",
         "metal": "PT900",
@@ -1822,7 +1822,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 179,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Sapphire - 1.49 Diamond - 1.11",
         "Particulars": "Sri Lanka \/ Royal Blue \/ No Heat",
@@ -1832,7 +1832,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 180,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Paraiba-3.93 Diamond - 1.03",
         "Particulars": "Brazil \/ Greenish-Blue \/ No Treat",
@@ -1843,7 +1843,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 181,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Emerald - 12.01 Diamond - 0.97",
         "metal": "Pt900",
@@ -1852,7 +1852,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 182,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald - 13.795 Diamond - 1.120",
         "metal": "Pt900",
         "grossWt": 20,
@@ -1860,7 +1860,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 183,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Padparadscha Sapphire - 9.21 Diamond - 0.671",
         "Particulars": "Sri Lanka \/ Pinkish Orange \/ No Heat",
         "metal": "Pt900",
@@ -1869,7 +1869,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 184,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Tanzanite - 15.47 Diamond - 1.32",
         "metal": "K18",
@@ -1878,7 +1878,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 185,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Violet Star Sapphire - 37.51 Diamond - 1.02",
         "metal": "PT900",
@@ -1887,7 +1887,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 186,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Sapphire - 10.05Diamond - 0.95",
         "Particulars": "Burma \/ Blue \/ No Heat",
         "metal": "PM850",
@@ -1896,7 +1896,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 187,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Emerald - 178.76 Diamond - 1.00",
         "Particulars": "Colombia \/ Green \/ Minor",
         "metal": "Pt900",
@@ -1905,7 +1905,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 188,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 5.60 Diamond - 1.04",
         "Particulars": "Colombia \/ Vivid Green \/ Minor",
@@ -1916,7 +1916,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 189,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-10.55 Diamond - 2.98",
         "Particulars": "Myanmar \/ Pinkish Red \/ Minor",
@@ -1926,7 +1926,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 190,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 16.11Diamond - 1.98",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -1936,7 +1936,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 191,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby - 13.75Diamond - 4.95",
         "Particulars": "Myanmar \/ Reddish Pink \/ Minor",
         "metal": "Pt900",
@@ -1945,7 +1945,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 192,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-4.67Diamond - 1.21",
         "Particulars": "Myanmar \/ Pigeon Blood \/ Minor",
@@ -1955,7 +1955,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 193,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 2.36  Diamond - 2.01",
         "Particulars": "Colombia \/ Vivid Green \/ Minor",
@@ -1965,7 +1965,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 194,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Chrysoberyl Catseye - 14.636 Diamond - 1.86",
         "metal": "PT950",
@@ -1974,7 +1974,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 195,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Padparadscha Sapphire - 3.59 Diamond - 0.55",
         "Particulars": "Sri Lanka \/ Orangy Pink \/ No Heat",
@@ -1984,7 +1984,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 196,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15.5,
         "detail": "Black Opal - 11.5  Diamond - 1.18",
         "metal": "PT900",
@@ -1993,7 +1993,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 197,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Alexandrite-5.17 Diamond - 2.09",
         "metal": "PT900",
@@ -2002,7 +2002,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 198,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby - 5.74 Diamond - 1.80",
         "Particulars": "Myanmar \/ Pinkish Red \/ Minor",
@@ -2012,7 +2012,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 199,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Sapphire - 9.88 Diamond - 0.68",
         "Particulars": "Sri Lanka \/ Blue \/ No Heat",
@@ -2022,7 +2022,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 200,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald - 8.47 Diamond - 4.71",
         "metal": "Pt900",
         "grossWt": 28.5,
@@ -2030,7 +2030,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 201,
-        "jwelleryType": "Brooch",
+        "jewelleryType": "Brooch",
         "detail": "Morganite-185.765 Colour Stone",
         "metal": "K18",
         "grossWt": 84.7,
@@ -2038,7 +2038,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 202,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Emerald - 3.91 Diamond - 0.44",
         "metal": "Pt900",
@@ -2047,7 +2047,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 203,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 5.05 Diamond - 0.88",
         "metal": "Pt900",
@@ -2056,7 +2056,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 204,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-6.26 Diamond - 2.44",
         "Particulars": "Thailand \/ Purple Red \/ Heat",
@@ -2066,7 +2066,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 205,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Tourmaline-25.14 Diamond - 1.35",
         "metal": "Pt900",
@@ -2075,7 +2075,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 206,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Alexandrite-2.124 Diamond - 1.94",
         "Particulars": "Brazil \/ Blue-Green Change to Purple \/\n****",
@@ -2086,7 +2086,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 207,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Ruby-2.812 Diamond - 2.05",
         "Particulars": "Thailand \/ Red \/ Minor",
@@ -2096,7 +2096,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 208,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Black Opal - 4.02  Diamond - 0.72",
         "metal": "PT900",
@@ -2105,7 +2105,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 209,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 6.90 Diamond - 1.80",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -2115,7 +2115,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 210,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Ruby-1.94 Diamond - 0.71",
         "Particulars": "Mozambique \/ Vivid Pinkish Red \/ Minor",
@@ -2125,7 +2125,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 211,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-9.48 Diamond - 2.04",
         "Particulars": "Myanmar \/ Pinkish Red \/ Minor",
@@ -2135,7 +2135,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 212,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 6.01Diamond - 0.49",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -2145,7 +2145,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 213,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Sapphire - 15.10 Diamond - 4.08",
         "metal": "PT900",
@@ -2154,7 +2154,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 214,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-4.36 Diamond - 0.803",
         "Particulars": "Myanmar \/ Pinkish Red \/ Minor",
         "metal": "Pt900",
@@ -2163,7 +2163,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 215,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 3.92 Diamond - 1.07",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ No Heat",
@@ -2173,7 +2173,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 216,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-1.55 Diamond - 0.51",
         "Particulars": "Thailand \/ Red Pigeon Blood \/ Heat",
@@ -2183,7 +2183,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 217,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 15.28 Diamond - 0.99",
         "Particulars": "Sri Lanka \/ Blue \/ No Heat",
@@ -2193,7 +2193,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 218,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 11.53 Diamond - 1.30",
         "metal": "PT900",
@@ -2202,7 +2202,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 219,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-2.970 Diamond - 1.60",
         "Particulars": "Thailand \/ Purplish-Red \/ Heat",
         "metal": "PT",
@@ -2211,7 +2211,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 220,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Emerald - 3.12 Diamond - 1.71",
         "Particulars": "Colombia \/ Green",
@@ -2221,7 +2221,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 221,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Paraiba-8.57 Diamond - 1.85",
         "Particulars": "Mozambique \/ Green-Blue",
@@ -2231,7 +2231,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 222,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Sapphire - 9.67 Diamond - 1.37",
         "metal": "PT900",
@@ -2240,7 +2240,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 223,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby - 11.45 Diamond - 0.51",
         "Particulars": "Vietnam \/ Purplish Red \/ No Heat",
         "metal": "Pt900",
@@ -2249,7 +2249,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 224,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 5.26 Diamond - 0.55",
         "Particulars": "Colombia \/ Vivid Green \/ Minor",
         "metal": "PT900\/850",
@@ -2258,7 +2258,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 225,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-3.50 Diamond - 0.55",
         "Particulars": "Myanmar \/ Pinkish Red \/ Heat",
         "metal": "PT900",
@@ -2267,7 +2267,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 226,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald - 14.51 Diamond - 1.30",
         "metal": "K18WG",
         "grossWt": 21.9,
@@ -2275,7 +2275,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 227,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Star Sapphire - 31.35  Diamond - 1.80",
         "metal": "PT900",
@@ -2284,7 +2284,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 228,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 5.141 Diamond - 1.46",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -2294,7 +2294,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 229,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-22.07 Diamond - 0.68",
         "Particulars": "Mozambique \/ Purplish Red \/ No Heat",
@@ -2304,7 +2304,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 230,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Black Opal - 12.77  Diamond - 1.32",
         "metal": "PT950",
@@ -2313,7 +2313,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 231,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Ruby-4.38 Diamond - 1.31",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
@@ -2323,7 +2323,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 232,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 1.93 Diamond - 2.00",
         "Particulars": "Colombia \/ Vivid Green \/ Minor",
         "metal": "PT900\/850",
@@ -2332,7 +2332,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 233,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Sapphire - 4.71Diamond - 0.50",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -2342,7 +2342,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 234,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald CatsEye- 47.605 Diamond - 0.92",
         "metal": "Pt900",
         "grossWt": 21.5,
@@ -2350,7 +2350,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 235,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 7.012 Diamond - 0.53",
         "Particulars": "Madagascar \/ Cornflower Blue \/ No Heat",
@@ -2360,7 +2360,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 236,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Black Opal - 10.971  Diamond - 1.45",
         "metal": "PT950",
@@ -2369,7 +2369,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 237,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Sapphire - 8.92Diamond - 0.374",
         "Particulars": "Sri Lanka \/ Royal Blue \/ Heat",
         "metal": "Pt900",
@@ -2378,7 +2378,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 238,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 20,
         "detail": "Emerald - 2.65 Diamond - 0.36",
         "metal": "K18",
@@ -2387,7 +2387,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 239,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Jadeite - 6.782 Diamond - 1.60",
         "metal": "K18WG",
         "grossWt": 14.1,
@@ -2395,7 +2395,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 240,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Alexandrite-1.59 Diamond - 2.15",
         "Particulars": "Brazil \/ Green-Blue Changing to Purple\n\/ ****",
@@ -2406,7 +2406,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 241,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 5.00",
         "metal": "K18WG",
         "grossWt": 17.8,
@@ -2414,7 +2414,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 242,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 1.90",
         "metal": "K18WG",
         "grossWt": 14.8,
@@ -2422,7 +2422,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 243,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 3.00",
         "metal": "PT950\/850",
         "grossWt": 8.3,
@@ -2430,7 +2430,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 244,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 5.00",
         "metal": "K18YG",
         "grossWt": 18.3,
@@ -2438,7 +2438,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 245,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 10.00",
         "metal": "K18WG",
         "grossWt": 46,
@@ -2446,7 +2446,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 246,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 38,
         "detail": "Emerald - 3.46 Diamond - 2.05",
         "Particulars": "Colombia \/ Green \/ F1",
@@ -2456,7 +2456,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 247,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 44,
         "detail": "Chrysoberyl Catseye - 5.206 Diamond - 0.36",
         "metal": "PT900\/850",
@@ -2465,7 +2465,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 248,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 44,
         "detail": "Emerald - 16.37 Diamond - 1.36",
         "metal": "Pt900\/850",
@@ -2474,7 +2474,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 249,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 44,
         "detail": "Indigolite Tourmaline-28.609 Diamond - 1.33",
         "metal": "Pt950",
@@ -2483,7 +2483,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 250,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 45,
         "detail": "Star Sapphire - 16.872 Diamond - 1.75",
         "metal": "PT900\/850",
@@ -2492,7 +2492,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 251,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald - 2.65 Diamond - 0.92",
         "metal": "Pt900",
         "grossWt": 10.2,
@@ -2500,7 +2500,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 252,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-3.01 Diamond - 1.14",
         "Particulars": "Burma(Myanmar) \/ Red \/",
@@ -2510,7 +2510,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 253,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10.5,
         "detail": "Sapphire - 8.65 Diamond - 1.17",
         "metal": "PT900",
@@ -2519,7 +2519,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 254,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 2.25 Opal-1.46 Diamond - 1.94",
         "metal": "K18WG",
@@ -2528,7 +2528,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 255,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Star Sapphire - 25.10 Diamond - 0.60",
         "metal": "PT900",
@@ -2537,7 +2537,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 256,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Tanzanite - 5.48 Diamond - 0.24",
         "metal": "PT900",
@@ -2546,7 +2546,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 257,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Green Garnet-1.70 Diamond-0.64",
         "metal": "PT900",
@@ -2555,7 +2555,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 258,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Black Opal - 3.38  Diamond - 0.38",
         "metal": "PT900",
@@ -2564,7 +2564,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 259,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.22 Diamond - 1.38",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
@@ -2574,7 +2574,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 260,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 21,
         "detail": "Star Sapphire - 16.60 Diamond - 2.48",
         "metal": "PT900",
@@ -2583,7 +2583,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 261,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-4.55 Diamond - 1.58",
         "Particulars": "Madagascar \/ Red \/ No Heat",
         "metal": "Pt900",
@@ -2592,7 +2592,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 262,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Sapphire - 3.04 Diamond - 1.24",
         "Particulars": "Sri Lanka \/ Royal Blue \/ Heat",
@@ -2602,7 +2602,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 263,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Pink Sapphire - 2.32 Diamond - 1.10",
         "Particulars": "Madagascar \/ Pink \/ Heat",
@@ -2612,7 +2612,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 264,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 6.052 Diamond - 1.50",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ No Heat",
@@ -2622,7 +2622,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 265,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Purple Pink Sapphire - 2.20 Diamond - 0.39",
         "metal": "PT900",
@@ -2631,7 +2631,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 266,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Paraiba-0.84 Diamond - 0.36",
         "Particulars": "Brazil \/ Neon Blue",
@@ -2641,7 +2641,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 267,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Star Ruby - 5.38 Diamond - 1.15",
         "Particulars": "Myanmar \/ Reddish Pink \/ No Heat",
@@ -2651,7 +2651,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 268,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-3.03 Diamond - 0.76+0.44",
         "Particulars": "Myanmar \/ Red \/ Minor",
         "metal": "K18WG",
@@ -2660,7 +2660,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 269,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Black Opal - 8.24  Diamond - 1.60",
         "metal": "PT900",
@@ -2669,7 +2669,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 270,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Emerald - 1.168 Diamond - 0.20",
         "metal": "PT900",
@@ -2678,7 +2678,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 271,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald - 2.35   Diamond - 0.14",
         "metal": "PT900",
         "grossWt": 10.9,
@@ -2686,7 +2686,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 272,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 5.53 Diamond - 0.35",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -2696,7 +2696,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 273,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 2.77 + Diamond",
         "metal": "PT950",
@@ -2705,7 +2705,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 274,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Padparadscha Sapphire - 2.93 Diamond - 0.65",
         "Particulars": "Madagascar \/ Orangy Pink \/ No Heat",
@@ -2715,7 +2715,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 275,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Ruby-2.66 Diamond - 0.79",
         "Particulars": "Myanmar \/ Pigeon Blood \/ Heat",
         "metal": "PT900",
@@ -2724,7 +2724,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 276,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.27Diamond - 0.58",
         "Particulars": "Myanmar \/ Pigeon Blood \/ Minor",
@@ -2734,7 +2734,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 277,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Sapphire - 1.91 Diamond - 0.56",
         "metal": "PT900",
@@ -2743,7 +2743,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 278,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 1.93 Diamond - 1.17",
         "metal": "Pt900",
@@ -2752,7 +2752,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 279,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Padparadscha Sapphire - 1.32 Diamond - 0.82",
         "Particulars": "Madagascar \/ Orange Pink \/ No Heat",
@@ -2762,7 +2762,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 280,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Ruby-1.90 Diamond - 0.60",
         "Particulars": "Burma(Myanmar) \/ Purplish Red \/ Heat(Min.)",
@@ -2772,7 +2772,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 281,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 2.05 Diamond - 0.65",
         "Particulars": "Sri Lanka \/ Royal Blue \/ Heat",
@@ -2782,7 +2782,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 282,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 4.07 Diamond - 0.20",
         "metal": "PT900",
@@ -2791,7 +2791,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 283,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 1.432 Diamond - 1.88",
         "metal": "PT950",
@@ -2800,7 +2800,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 284,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Ruby-9.58 Diamond - 0.46",
         "Particulars": "**** \/ Purple Red \/ No Heat",
@@ -2810,7 +2810,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 285,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Sapphire-5.59 Diamond - 0.60",
         "Particulars": "**** \/ **** \/ No Heat",
@@ -2820,7 +2820,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 286,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Emerald - 1.66 Diamond - 0.05",
         "metal": "K18",
@@ -2829,7 +2829,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 287,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Demantoid Garnet - 2.89  Diamond - 0.98",
         "metal": "PT900",
@@ -2838,7 +2838,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 288,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Demantoid Garnet - 3.05 Diamond - 0.40",
         "metal": "Pt900",
@@ -2847,7 +2847,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 289,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Emerald - 3.90  Diamond - 0.51",
         "Particulars": "Colombia \/ Green \/ ****",
@@ -2857,7 +2857,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 290,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 4.07   Diamond - 1.30",
         "Particulars": "Colombia \/ Vivid Green \/ Minor",
         "metal": "PT900\/850",
@@ -2866,7 +2866,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 291,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Sapphire - 1.88Diamond - 0.69",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -2876,7 +2876,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 292,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 3.034 Diamond - 1.00",
         "metal": "PT900",
@@ -2885,7 +2885,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 293,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 1.61 Diamond - 0.45",
         "metal": "PT900",
@@ -2894,7 +2894,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 294,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Jadeite - 6.79 Diamond - 0.56",
         "metal": "PT900",
@@ -2903,7 +2903,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 295,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.75 Diamond - 0.90",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
@@ -2913,7 +2913,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 296,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Pink Sapphire - 1.309 Diamond - 1.02",
         "metal": "PT900\/K18",
@@ -2922,7 +2922,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 297,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 20,
         "detail": "Emerald - 4.55 Diamond - 0.82+0.72",
         "metal": "PT900",
@@ -2931,7 +2931,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 298,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16.5,
         "detail": "Sapphire - 1.86 Diamond - 0.54",
         "metal": "PT900",
@@ -2940,7 +2940,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 299,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 1.79 Diamond - 0.21",
         "metal": "PT900",
@@ -2949,7 +2949,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 300,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Pink Sapphire - 1.89 Diamond - 0.13",
         "metal": "K18WG",
@@ -2958,7 +2958,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 301,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15.5,
         "detail": "Black Opal - 22.70  Diamond - 3.20",
         "metal": "PT900",
@@ -2967,7 +2967,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 302,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 2.249 Diamond - 1.10",
         "metal": "PT950",
@@ -2976,7 +2976,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 303,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire-2.45 Diamond - 0.93",
         "metal": "PT850",
@@ -2985,7 +2985,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 304,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Spinel-1.21 Diamond - 0.37",
         "Particulars": "Burma \/ Red \/ No Heat",
         "metal": "Pt900",
@@ -2994,7 +2994,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 305,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Jadeite + Diamond - 0.55",
         "metal": "PT900",
@@ -3003,7 +3003,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 306,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "Size #": 16,
         "detail": "Ruby-10.00 Diamond - 1.54+4.98",
         "metal": "K18WG",
@@ -3012,7 +3012,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 307,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 1.25 Diamond - 0.56",
         "metal": "K18",
@@ -3021,7 +3021,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 308,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Sapphire - 2.34 Diamond - 1.10",
         "metal": "PT900",
@@ -3030,7 +3030,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 309,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Sapphire - 2.03 Diamond - 0.59",
         "Particulars": "Sri Lanka \/ Pinkish Purple \/ Heat",
@@ -3040,7 +3040,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 310,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14.5,
         "detail": "Ruby-1.27 Diamond - 0.60",
         "metal": "PT900",
@@ -3049,7 +3049,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 311,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Ruby-2.492Diamond - 2.80",
         "Particulars": "Thailand \/ Red \/ Heat",
@@ -3059,7 +3059,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 312,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-1.50 Diamond - 1.30",
         "metal": "PT950",
@@ -3068,7 +3068,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 313,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Sapphire - 1.35 Diamond - 1.53",
         "metal": "K18WG",
@@ -3077,7 +3077,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 314,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Pink Sapphire - 3.43Diamond - 0.41",
         "Particulars": "Sri Lanka \/ Pink \/ Heat",
         "metal": "Pt900",
@@ -3086,7 +3086,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 315,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Emerald - 1.33 Diamond - 0.72",
         "metal": "PT900\/K18",
@@ -3095,7 +3095,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 316,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Ruby-3.134Diamond - 1.04",
         "metal": "Pt900",
@@ -3104,7 +3104,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 317,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Ruby-10.87 Diamond - 2.00",
         "Particulars": "Madagascar \/ Purplish Red \/ No Heat",
         "metal": "PT900",
@@ -3113,7 +3113,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 318,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 10.42 Diamond - 3.46+1.46",
         "metal": "PT900\/K18",
         "grossWt": 45.7,
@@ -3121,7 +3121,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 319,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 1.64 Diamond - 0.20",
         "metal": "PT900",
@@ -3130,7 +3130,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 320,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 76.87 Diamond - 4.27",
         "metal": "PT900\/850",
         "grossWt": 54.8,
@@ -3138,7 +3138,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 321,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-25.21 Diamond - 0.54",
         "Particulars": "**** \/ Purplish Red \/ No Heat",
@@ -3148,7 +3148,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 322,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Ruby-1.96 Diamond - 0.89",
         "Particulars": "Sri Lanka \/ Purple Red \/ Heat",
@@ -3158,7 +3158,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 323,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Pink Sapphire - 2.265 Diamond - 0.441",
         "metal": "K18WG",
@@ -3167,7 +3167,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 324,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Emerald - 23.87 Diamond - 0.211+0.330",
         "metal": "Pt900",
         "grossWt": 17.7,
@@ -3175,7 +3175,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 325,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Alexandrite Catseye - 3.37 Diamond - 2.24",
         "Particulars": "**** \/ Green Changing To Purple \/ ****",
@@ -3185,7 +3185,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 326,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 4.13 Diamond - 0.14",
         "Particulars": "Sri Lanka \/ Violetish Blue \/ No Heat",
@@ -3195,7 +3195,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 327,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 17,
         "detail": "Sapphire - 5.80 Diamond - 1.39",
         "Particulars": "Sri Lanka \/ Blue \/ No Heat",
@@ -3205,7 +3205,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 328,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-1.682 Diamond - 0.80",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
         "metal": "K18",
@@ -3214,7 +3214,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 329,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 13.360 Diamond - 1.53",
         "Particulars": "Sri Lanka \/ Royal Blue \/ Heat",
@@ -3224,7 +3224,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 330,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 3.25 Diamond - 1.88",
         "Particulars": "Madagascar \/ Orange \/ No Heat",
@@ -3234,7 +3234,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 331,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Pink Sapphire-2.412 Diamond - 0.52",
         "Particulars": "**** \/ **** \/ No Heat",
@@ -3244,7 +3244,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 332,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Star Ruby - 8.13  Diamond - 2.65",
         "Particulars": "Myanmar \/ Vivid Pinkish Red \/ No heat",
@@ -3254,7 +3254,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 333,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Jadeite-2.864 Diamond - 1.80",
         "metal": "PT900",
         "grossWt": 10.2,
@@ -3262,7 +3262,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 334,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 1.85 Diamond - 0.25",
         "metal": "PT900",
@@ -3271,7 +3271,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 335,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Purple Sapphire - 1.10 Diamond - 0.33",
         "metal": "K18WG",
@@ -3280,7 +3280,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 336,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Pink Sapphire - 14.21 Diamond - 0.42",
         "Particulars": "Vietnam \/ Pink \/ Heat",
@@ -3290,7 +3290,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 337,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Sapphire - 3.695 Diamond - 0.441",
         "Particulars": "No Heat",
@@ -3300,7 +3300,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 338,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 5.83 Diamond - 1.26",
         "Particulars": "Madagascar \/ Blue \/ No Heat",
@@ -3310,7 +3310,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 339,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Ruby-1.55 Diamond - 1.08",
         "Particulars": "Myanmar \/ Red \/ Minor",
@@ -3320,7 +3320,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 340,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 1.10 Diamond - 0.67",
         "metal": "PT900",
@@ -3329,7 +3329,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 341,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 1.16 Diamond - 0.70",
         "metal": "PT900",
@@ -3338,7 +3338,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 342,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Violet Star Sapphire - 10.26 Diamond - 0.26",
         "metal": "Pt900",
@@ -3347,7 +3347,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 343,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Sapphire - 2.656 Diamond - 1.24",
         "Particulars": "Sri Lanka \/ Blue \/ No Heat",
@@ -3357,7 +3357,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 344,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Star Ruby - 4.42  Diamond - 0.90",
         "metal": "PT900",
@@ -3366,7 +3366,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 345,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Padparadscha Sapphire - 3.19 Diamond - 0.37",
         "Particulars": "Sri Lanka \/ Orangy Pink \/ No Heat",
@@ -3376,7 +3376,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 346,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Star Sapphire - 6.164 Diamond - 0.97",
         "metal": "Pt950",
@@ -3385,7 +3385,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 347,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.409 Diamond - 0.43",
         "metal": "PT900",
@@ -3394,7 +3394,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 348,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 11.570 Diamond - 3.290",
         "metal": "Pt900",
@@ -3403,7 +3403,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 349,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-14.11 Diamond - 3.07",
         "Particulars": "Myanmar \/ Pinkish Red \/ Minor",
@@ -3413,7 +3413,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 350,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 2.75 Diamond - 0.43",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ No Heat",
@@ -3423,7 +3423,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 351,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 12.52 Diamond - 1.610",
         "metal": "Pt900",
@@ -3432,7 +3432,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 352,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-1.38 Diamond - 1.87",
         "Particulars": "Thailand \/ Vivid Red \/ H(a)",
         "metal": "PT900\/K18",
@@ -3441,7 +3441,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 353,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Pink Sapphire-2.47 Diamond - 0.53",
         "Particulars": "Afghanistan \/ Purple Pink \/ No Heat",
@@ -3451,7 +3451,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 354,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 4.434 Diamond - 1.19",
         "metal": "PT950",
@@ -3460,7 +3460,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 355,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Black Opal - 2.03  Diamond - 0.60",
         "metal": "PT850",
@@ -3469,7 +3469,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 356,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.093 Diamond - 0.80",
         "metal": "PT900",
@@ -3478,7 +3478,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 357,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-1.56 Diamond - 0.33",
         "Particulars": "Thailand \/ Red \/ Minor",
@@ -3488,7 +3488,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 358,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 1.64 Diamond - 1.00",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -3498,7 +3498,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 359,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 2.28 Diamond - 0.48",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -3508,7 +3508,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 360,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Emerald - 1.62 Diamond - 0.51",
         "metal": "PT900",
@@ -3517,7 +3517,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 361,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Black Opal - 5.99  Diamond - 1.28",
         "metal": "K18WG",
         "grossWt": 9.3,
@@ -3525,7 +3525,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 362,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Tanzanite - 7.43 Diamond - 0.84",
         "metal": "PT900\/850",
         "grossWt": 4.9,
@@ -3533,7 +3533,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 363,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Black Opal - 18.55  Diamond - 2.80",
         "metal": "PT900\/850",
         "grossWt": 18.7,
@@ -3541,7 +3541,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 364,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-14.00 Diamond - 12.50",
         "metal": "K18YG",
         "grossWt": 34.8,
@@ -3549,7 +3549,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 365,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Spessartine Garnet-20.83 Diamond - 0.27",
         "metal": "PT900\/850",
         "grossWt": 11.7,
@@ -3557,7 +3557,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 366,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 5.42 Diamond - 2.11",
         "metal": "PT900\/850",
         "grossWt": 23.8,
@@ -3565,7 +3565,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 367,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Ruby-3.51 Diamond - 1.18",
         "metal": "PT900",
         "grossWt": 36.6,
@@ -3573,7 +3573,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 368,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Emerald - 1.53",
         "metal": "K18PG",
         "grossWt": 6.7,
@@ -3581,7 +3581,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 369,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 9.65 Diamond - 9.90",
         "metal": "PT900\/850",
         "grossWt": 38.6,
@@ -3589,7 +3589,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 370,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Southsea Pearl-8.2-11.9Mm",
         "metal": "SV925",
         "grossWt": 63.2,
@@ -3597,7 +3597,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 371,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 6.20Diamond - 1.87",
         "Particulars": "Sri Lanka \/ Blue \/ No Heat",
@@ -3607,7 +3607,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 372,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 4.81 Diamond - 0.97",
         "metal": "Pt900\/K18",
@@ -3616,7 +3616,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 373,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Opal-14.42 Diamond - 0.45",
         "metal": "K18\/PT900",
@@ -3625,7 +3625,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 374,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Red Spinel-1.82 Diamond - 0.32",
         "metal": "PT900",
@@ -3634,7 +3634,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 375,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Ruby-3.87 Diamond - 0.25",
         "Particulars": "Madagascar \/ Red \/ No Heat",
@@ -3644,7 +3644,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 376,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 18,
         "detail": "Emerald - 1.69 Diamond - 1.43",
         "metal": "PT900",
@@ -3653,7 +3653,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 377,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 8.80 Diamond - 2.25",
         "metal": "PT900",
@@ -3662,7 +3662,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 378,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Emerald - 3.07 Diamond - 1.30",
         "metal": "Pt900",
@@ -3671,7 +3671,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 379,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Ruby-3.52 Diamond - 1.598",
         "Particulars": "Red-Pink \/ No Heat",
@@ -3681,7 +3681,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 380,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Sapphire - 7.16Diamond - 2.00",
         "Particulars": "Sri Lanka \/ Royal Blue \/ Heat",
@@ -3691,7 +3691,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 381,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Aquamarine-17.94 Diamond - 3.438",
         "metal": "PT900",
@@ -3700,7 +3700,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 382,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-2.10 Diamond - 0.88",
         "Particulars": "Thailand \/ Red \/ Heat",
         "metal": "PT",
@@ -3709,7 +3709,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 383,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-2.88 Diamond - 2.35",
         "Particulars": "Thailand \/ Purplish-Red \/ Heat",
         "metal": "PT",
@@ -3718,7 +3718,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 384,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Ruby-2.49Diamond - 1.60",
         "Particulars": "Thailand \/ Red \/ Minor",
@@ -3728,7 +3728,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 385,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 8.722 Diamond - 2.08",
         "Particulars": "Sri Lanka \/ Blue \/ No Heat",
@@ -3738,7 +3738,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 386,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Alexandrite-2.654 Diamond - 1.48",
         "metal": "PT",
@@ -3747,7 +3747,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 387,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 9.65 Diamond - 1.41",
         "metal": "Pt900",
@@ -3756,7 +3756,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 388,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Black Opal - 10.55  Diamond - 2.21",
         "metal": "Pt900",
         "grossWt": 15.1,
@@ -3764,7 +3764,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 389,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 4.57 Diamond - 0.52",
         "metal": "PT900",
@@ -3773,7 +3773,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 390,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Padparadscha Sapphire - 4.45 Diamond - 0.45",
         "Particulars": "Pastel Orangy Pink \/ No Heat",
@@ -3783,7 +3783,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 391,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-0.82 Diamond - 3.00",
         "metal": "K18",
@@ -3792,7 +3792,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 392,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 6.03 Diamond - 0.48",
         "Particulars": "Sri Lanka \/ Violetish Blue \/ No Heat",
@@ -3802,7 +3802,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 393,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 2.02 Diamond - 0.83",
         "metal": "PT900",
@@ -3811,7 +3811,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 394,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Southsea Pearl-14.8-14.9Mm Diamond-0.32",
         "metal": "K18",
@@ -3820,7 +3820,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 395,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Zircon - 4.88 Diamond - 1.30",
         "metal": "PT850",
@@ -3829,7 +3829,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 396,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-1.53 Diamond - 0.25",
         "metal": "PT900",
         "grossWt": 12.8,
@@ -3837,7 +3837,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 397,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 21,
         "detail": "Emerald - 7.521 Diamond - 0.20",
         "metal": "PT900",
@@ -3846,7 +3846,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 398,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Chalcedony+Shell+Ruby - 0.83 Diamond - 0.11",
         "metal": "K18\/K18WG",
@@ -3855,7 +3855,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 399,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Rhodolite Garnet - 8.29 Diamond - 0.45",
         "metal": "PM900",
@@ -3864,7 +3864,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 400,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Water Opal-2.76 Diamond - 1.31",
         "metal": "PT900",
@@ -3873,7 +3873,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 401,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Sapphire - 1.80 Diamond - 0.55",
         "Particulars": "Sri Lanka \/ Cornflower Blue \/ Heat",
@@ -3883,7 +3883,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 402,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Chrysoberyl Catseye - 4.46  Diamond - 1.12",
         "Particulars": "**** \/ Honey Color \/ No Treat",
         "metal": "PT900",
@@ -3892,7 +3892,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 403,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-2.08 Diamond - 0.55",
         "metal": "PT900",
@@ -3901,7 +3901,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 404,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Jadeite + Diamond-0.71",
         "metal": "PT900",
@@ -3910,7 +3910,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 405,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-1.58 Diamond - 0.36",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
@@ -3920,7 +3920,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 406,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Sapphire - 2.05 Diamond - 0.52",
         "Particulars": "Madagascar \/ Royal Blue \/ Heat",
@@ -3930,7 +3930,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 407,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Emerald - 1.10 Diamond - 0.47",
         "Particulars": "Brazil \/ Vivid green \/ Minor",
@@ -3940,7 +3940,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 408,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Fire Opal-6.76 Diamond - 0.63",
         "metal": "PT900",
@@ -3949,7 +3949,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 409,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Imperial Topaz-3.23",
         "metal": "PT900",
@@ -3958,7 +3958,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 410,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Star Ruby-8.64 Diamond - 0.68",
         "metal": "PT900",
@@ -3967,7 +3967,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 411,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Diamond - 0.57+1.25",
         "metal": "Pt900",
         "grossWt": 6.7,
@@ -3975,7 +3975,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 412,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Diamond - 0.98-0.79",
         "metal": "K18",
@@ -3984,7 +3984,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 413,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Diamond - 3.01",
         "metal": "K18",
@@ -3993,7 +3993,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 414,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Diamond - 0.87+0.56",
         "metal": "K18",
@@ -4002,7 +4002,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 415,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Diamond - 0.40",
         "metal": "K18PG\/WG",
@@ -4011,7 +4011,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 416,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Diamond - 3.00",
         "metal": "K18YG",
@@ -4020,7 +4020,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 417,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Diamond - 3.00",
         "metal": "K18WG",
@@ -4029,7 +4029,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 418,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Diamond - 1.07",
         "metal": "K18",
@@ -4038,7 +4038,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 419,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Diamond - 1.01",
         "metal": "PT900",
         "grossWt": 5.1,
@@ -4046,7 +4046,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 420,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Diamond - 1.015",
         "metal": "PT900",
@@ -4055,7 +4055,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 421,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 1.54 Diamond - 0.69",
         "Particulars": "Colombia \/ Green \/ F1",
@@ -4065,7 +4065,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 422,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Sapphire - 4.699 Diamond - 0.80",
         "metal": "PT900",
@@ -4074,7 +4074,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 423,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-4.03 Diamond - 2.18",
         "Particulars": "Mozambique \/ Pinkish Red \/ No Heat",
@@ -4084,7 +4084,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 424,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Emerald - 8.58 Diamond - 0.86",
         "Particulars": "Colombia \/ Green \/ F2",
@@ -4094,7 +4094,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 425,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15.5,
         "detail": "Ruby-1.54Diamond - 2.10",
         "metal": "K18YG",
@@ -4103,7 +4103,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 426,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Aquamarine-31.11 Diamond - 0.68",
         "metal": "PT900",
@@ -4112,7 +4112,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 427,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Pink Sapphire - 2.70 Diamond - 0.44",
         "metal": "K18",
@@ -4121,7 +4121,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 428,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 2.846Diamond - 1.11",
         "Particulars": "Madagascar \/ Royal Blue \/ No Heat",
@@ -4131,7 +4131,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 429,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Emerald - 16.52 Diamond - 1.06",
         "metal": "PT900",
@@ -4140,7 +4140,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 430,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Star Sapphire - 10.55 Diamond - 1.38",
         "metal": "PT900",
@@ -4149,7 +4149,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 431,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 13.25",
         "metal": "K18YG",
         "grossWt": 57,
@@ -4157,7 +4157,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 432,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 14.25",
         "metal": "K18WG",
         "grossWt": 82.2,
@@ -4165,7 +4165,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 433,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 6.26",
         "metal": "PT900",
         "grossWt": 51.1,
@@ -4173,7 +4173,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 434,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 25.00",
         "metal": "K18YG",
         "grossWt": 57.1,
@@ -4181,7 +4181,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 435,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 10.20",
         "metal": "PT900\/850",
         "grossWt": 43.7,
@@ -4189,7 +4189,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 436,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 21.40 Emerald - 0.15",
         "metal": "K18WG",
         "grossWt": 52,
@@ -4197,7 +4197,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 437,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 3.00",
         "metal": "K18WG",
         "grossWt": 14.2,
@@ -4205,7 +4205,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 438,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 21.00 Emerald - 0.35",
         "metal": "K18YG",
         "grossWt": 49.2,
@@ -4213,7 +4213,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 439,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 5.00",
         "metal": "PT900\/850",
         "grossWt": 23.9,
@@ -4221,7 +4221,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 440,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-17.10 Diamond - 3.00+1.10",
         "metal": "PT850\/900",
         "grossWt": 56.3,
@@ -4229,7 +4229,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 441,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-8.30 Diamond - 7.20",
         "metal": "PT900",
         "grossWt": 36.1,
@@ -4237,7 +4237,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 442,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby + Diamond - 1.60",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
         "metal": "K18",
@@ -4246,7 +4246,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 443,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Chrysoberyl CatsEye - 5.680 Diamond - 2.130",
         "metal": "PT900",
@@ -4255,7 +4255,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 444,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Emerald - 0.50 Diamond - 2.50",
         "metal": "K18YG",
         "grossWt": 14.5,
@@ -4263,7 +4263,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 445,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 7.71+0.17 Diamond - 0.19",
         "metal": "K18\/PT900",
         "grossWt": 10.4,
@@ -4271,7 +4271,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 446,
-        "jwelleryType": "Brooch",
+        "jewelleryType": "Brooch",
         "detail": "Southsea Pearl - 16.2-16.4MM Diamond-1.10",
         "metal": "PT900",
         "grossWt": 30,
@@ -4279,7 +4279,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 447,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 2.90 Diamond - 0.52+0.25",
         "metal": "PT900\/850",
         "grossWt": 15.6,
@@ -4287,7 +4287,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 448,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Blue Topaz-230.09 Diamond - 0.17",
         "metal": "PT900\/850",
         "grossWt": 39.4,
@@ -4295,7 +4295,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 449,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Tanzanite - 16.769 Diamond - 0.06",
         "metal": "PT900\/850",
         "grossWt": 9.7,
@@ -4303,7 +4303,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 450,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 2.76 Diamond - 0.64",
         "metal": "Pt900\/850",
         "grossWt": 14.4,
@@ -4311,7 +4311,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 451,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Sapphire - 8.92 Diamond - 0.90",
         "metal": "K18WG",
@@ -4320,7 +4320,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 452,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-2.16 Diamond - 0.41",
         "Particulars": "Madagascar \/ Red \/ Minor",
         "metal": "PT900\/850",
@@ -4329,7 +4329,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 453,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 6.26 Diamond - 1.22",
         "metal": "PT900",
@@ -4338,7 +4338,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 454,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Southsea Pearl",
         "metal": "K18",
@@ -4347,7 +4347,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 455,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Emerald - 2.31 Diamond - 0.52",
         "metal": "PT900",
@@ -4356,7 +4356,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 456,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10.5,
         "detail": "Tourmaline-3.17 Diamond - 0.43 Aquamarine - 2.10",
         "metal": "K18",
@@ -4365,7 +4365,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 457,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby - 1.52Diamond - 1.00",
         "metal": "Pt900",
@@ -4374,7 +4374,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 458,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Black Opal - 3.85  Diamond - 0.38+0.43",
         "metal": "PT900",
@@ -4383,7 +4383,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 459,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Ruby-1.393 Diamond - 0.60",
         "metal": "PT900",
@@ -4392,7 +4392,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 460,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-4.199 Diamond - 1.41",
         "metal": "PT900",
@@ -4401,7 +4401,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 461,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Orange Sapphire - 5.098 Diamond - 1.00",
         "Particulars": "No Berylium Treated",
@@ -4411,7 +4411,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 462,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 1.422 Diamond - 0.63",
         "Particulars": "Colombia \/ Vivid Green \/ Minor",
@@ -4421,7 +4421,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 463,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 6.5,
         "detail": "Chrysoberyl Catseye - 4.606 + Diamond",
         "metal": "K18WG",
@@ -4430,7 +4430,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 464,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-1.593 Diamond - 0.80",
         "metal": "PT900",
@@ -4439,7 +4439,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 465,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 18,
         "detail": "Emerald - 8.85 Diamond - 0.89",
         "metal": "PT900",
@@ -4448,7 +4448,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 466,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Pink Sapphire-3.276Diamond - 0.60",
         "Particulars": "No Heat",
@@ -4458,7 +4458,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 467,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 3.27 Diamond - 1.14",
         "Particulars": "Burma(Myanmar) \/ Blue \/ No Heat",
@@ -4468,7 +4468,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 468,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 3.573 Diamond - 3.28",
         "metal": "PT900",
@@ -4477,7 +4477,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 469,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-5.095Diamond - 1.054",
         "Particulars": "Burma \/ Pigeon Blood \/ Minor",
@@ -4487,7 +4487,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 470,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 5.15 Diamond - 1.50",
         "metal": "PT900",
@@ -4496,7 +4496,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 471,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 0.83",
         "metal": "K18",
         "grossWt": 55.6,
@@ -4504,7 +4504,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 472,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Emerald - 1.12 Diamond - 0.235",
         "metal": "PT900",
@@ -4513,7 +4513,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 473,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Tanzanite - 5.48 Diamond - 0.18",
         "metal": "PT900",
@@ -4522,7 +4522,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 474,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Black Opal - 8.55  Diamond - 0.39",
         "metal": "K18",
@@ -4531,7 +4531,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 475,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Star Sapphire - 13.61  Diamond - 0.51",
         "metal": "K18",
@@ -4540,7 +4540,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 476,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Ruby-1.70 Diamond - 0.70",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
@@ -4550,7 +4550,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 477,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby - 1.45 Diamond - 1.17",
         "metal": "Pt900",
         "grossWt": 13,
@@ -4558,7 +4558,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 478,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Emerald - 3.98 Diamond - 0.24",
         "metal": "K18YG",
@@ -4567,7 +4567,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 479,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-2.93 Diamond - 0.16",
         "metal": "PT900\/850",
         "grossWt": 7.4,
@@ -4575,7 +4575,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 480,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-2.61 Diamond - 1.23",
         "Particulars": "Sri Lanka \/ Purple-Red \/ Heat",
@@ -4585,7 +4585,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 481,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 38,
         "detail": "Sapphire - 4.145Diamond - 0.89",
         "Particulars": "**** \/ Blue \/ No Heat",
@@ -4595,7 +4595,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 482,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 17,
         "detail": "Emerald - 3.334 Diamond - 1.139",
         "metal": "PT850",
@@ -4604,7 +4604,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 483,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 44,
         "detail": "Chrysoberyl Catseye - 7.61 Diamond - 1.04",
         "metal": "PT900\/850",
@@ -4613,7 +4613,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 484,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Ruby-1.92Diamond - 2.17",
         "Particulars": "Burma \/ Purple Red \/ No Heat",
         "metal": "Pt900",
@@ -4622,7 +4622,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 485,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Black Opal - 5.51  Diamond - 0.85",
         "metal": "PT900",
@@ -4631,7 +4631,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 486,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 3.92 Diamond - 1.09",
         "Particulars": "Colombia \/ Green \/",
         "metal": "PT900\/850",
@@ -4640,7 +4640,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 487,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Voilet Star Sapphire - 5.00 Diamond - 1.30",
         "metal": "PT900\/850",
         "grossWt": 15.1,
@@ -4648,7 +4648,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 488,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-2.571Diamond - 0.30",
         "Particulars": "Mozambique \/ Purple Red \/ No Heat",
         "metal": "Pt850\/900",
@@ -4657,7 +4657,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 489,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "Size #": 40,
         "detail": "Emerald - 2.45 Diamond - 0.45",
         "Particulars": "Colombia \/ Vivid Green \/ INSIGN.",
@@ -4667,7 +4667,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 490,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Pink Sapphire - 2.33 Diamond - 0.64",
         "metal": "PT850",
         "grossWt": 12.5,
@@ -4675,7 +4675,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 491,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Diamond - 3.50",
         "metal": "PT900",
@@ -4684,7 +4684,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 492,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Diamond - 0.79+0.92",
         "metal": "PT900",
@@ -4693,7 +4693,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 493,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Diamond - 1.145+0.59",
         "metal": "PT900",
@@ -4703,7 +4703,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 494,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Diamond - 1.00",
         "metal": "PT900",
@@ -4712,7 +4712,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 495,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Diamond - 1.00",
         "metal": "PT900",
@@ -4721,7 +4721,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 496,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Diamond - 2.013+1.31",
         "metal": "K18YG",
@@ -4731,7 +4731,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 497,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 4.279 Diamond - 0.74",
         "metal": "PT900",
@@ -4740,7 +4740,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 498,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Opal",
         "metal": "K18\/PT900",
@@ -4749,7 +4749,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 499,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Diamond - 0.921+0.28",
         "metal": "K18\/PT900",
@@ -4758,7 +4758,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 500,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14.5,
         "detail": "Tahiti Pearl + Diamond-1.11",
         "metal": "K18WG",
@@ -4767,7 +4767,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 501,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 1.101 Diamond - 1.32",
         "metal": "PT900",
@@ -4776,7 +4776,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 502,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Purple Sapphire - 2.452 Diamond - 0.43",
         "metal": "PT900",
@@ -4785,7 +4785,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 503,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-2.10 Diamond - 0.56",
         "Particulars": "Myanmar \/ Pinkish Red(Pigeon Blood)\n\/ Moderate",
@@ -4795,7 +4795,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 504,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Emerald - 2.33 Diamond - 0.41",
         "metal": "PT900",
@@ -4804,7 +4804,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 505,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 5.306 Diamond - 0.50",
         "metal": "PT900",
@@ -4813,7 +4813,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 506,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 3.39 Diamond - 0.602",
         "metal": "PT900",
@@ -4822,7 +4822,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 507,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Sapphire - 2.15 Diamond - 0.54",
         "metal": "PT900",
@@ -4831,7 +4831,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 508,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10.5,
         "detail": "Emerald - 6.82 Diamond - 0.65",
         "metal": "K18",
@@ -4840,7 +4840,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 509,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Ruby-1.68 Diamond - 3.00",
         "metal": "K18",
@@ -4849,7 +4849,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 510,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-1.39 Diamond - 1.45",
         "metal": "PT900",
@@ -4858,7 +4858,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 511,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Ruby-4.42 Diamond - 1.70",
         "metal": "K18",
@@ -4867,7 +4867,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 512,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-2.82 Diamond - 0.40",
         "metal": "K18",
@@ -4876,7 +4876,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 513,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 4.29 Diamond - 1.33",
         "Particulars": "Burma(Myanmar) \/ Blue \/ No Heat",
@@ -4886,7 +4886,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 514,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire-5.141 Diamond - 2.22",
         "metal": "K18",
@@ -4895,7 +4895,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 515,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-6.24 Diamond - 0.82",
         "Particulars": "Kenya \/ Purple Red \/ Heat(Signif.)",
@@ -4905,7 +4905,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 516,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 1.84 Diamond - 1.10",
         "metal": "PT900",
@@ -4914,7 +4914,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 517,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Southsea Pearl - 12.4-12.6Mm Diamond-0.43+0.07",
         "metal": "K18WG",
@@ -4923,7 +4923,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 518,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.765+0.38 Diamond - 0.91",
         "metal": "PT900",
@@ -4932,7 +4932,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 519,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Diamond - 13.73+0.48",
         "metal": "K18WG",
@@ -4941,7 +4941,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 520,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Emerald + Diamond",
         "metal": "K14WG",
         "grossWt": 19.7,
@@ -4949,7 +4949,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 521,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Emerald - 1.93 Diamond - 0.36",
         "metal": "PT900",
         "grossWt": 4,
@@ -4957,7 +4957,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 522,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-1.04 Diamond - 0.50",
         "metal": "K18",
@@ -4966,7 +4966,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 523,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 2.01 Diamond - 0.86+0.21",
         "metal": "PT900",
@@ -4975,7 +4975,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 524,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-2.06 Diamond - 0.75",
         "Particulars": "Thailand \/ Pigeon Blood \/ Minor",
@@ -4985,7 +4985,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 525,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.79 Diamond - 0.90",
         "metal": "K18YG",
@@ -4994,7 +4994,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 526,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 20,
         "detail": "Emerald - 4.35 Diamond - 0.65",
         "metal": "Pt900",
@@ -5003,7 +5003,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 527,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Emerald - 2.08 Diamond - 0.92",
         "metal": "PT900",
         "grossWt": 5,
@@ -5011,7 +5011,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 528,
-        "jwelleryType": "Pierce",
+        "jewelleryType": "Pierce",
         "detail": "Sapphire - 5.21 Diamond - 1.00",
         "metal": "PT900",
         "grossWt": 5.7,
@@ -5019,7 +5019,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 529,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Pink Sapphire-9.03 Diamond - 0.25",
         "Particulars": "Sri Lanka \/ Pink \/ No Heat",
@@ -5029,7 +5029,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 530,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-4.32 Diamond - 0.67",
         "Particulars": "Thailand \/ Pinkish Red \/ Heat \/ Minor",
         "metal": "K18",
@@ -5038,7 +5038,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 531,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 15.08",
         "metal": "K18WG",
         "grossWt": 18.1,
@@ -5046,7 +5046,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 532,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 10.00",
         "metal": "K18PG",
         "grossWt": 26,
@@ -5054,7 +5054,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 533,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 5.35",
         "metal": "K18WG",
         "grossWt": 26.5,
@@ -5062,7 +5062,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 534,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 1.42",
         "metal": "K18WG",
         "grossWt": 21.8,
@@ -5070,7 +5070,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 535,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 20.09",
         "metal": "K18WG",
         "grossWt": 27.7,
@@ -5078,7 +5078,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 536,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 10.00",
         "metal": "K18PG",
         "grossWt": 25.5,
@@ -5086,7 +5086,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 537,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Diamond - 1.059",
         "metal": "Pt900\/850",
         "grossWt": 1.85,
@@ -5094,7 +5094,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 538,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 20.00",
         "metal": "K18WG",
         "grossWt": 82.2,
@@ -5102,7 +5102,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 539,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 6.50",
         "metal": "PT900",
         "grossWt": 14.5,
@@ -5110,7 +5110,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 540,
-        "jwelleryType": "Bangle",
+        "jewelleryType": "Bangle",
         "detail": "Diamond - 4.00",
         "metal": "K18WG",
         "grossWt": 23,
@@ -5118,7 +5118,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 541,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Diamond - 4.85",
         "metal": "PT900\/850",
         "grossWt": 20.5,
@@ -5126,7 +5126,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 542,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 15.58 Diamond - 0.30+0.20",
         "metal": "K18WG",
         "grossWt": 7.4,
@@ -5134,7 +5134,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 543,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 10.61 Diamond - 1.28+0.03",
         "metal": "PT900\/850",
         "grossWt": 15.9,
@@ -5142,7 +5142,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 544,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-1.232 Diamond - 0.24",
         "metal": "K18YG",
         "grossWt": 7,
@@ -5150,7 +5150,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 545,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Water Opal-32.77 Diamond - 1.27",
         "metal": "K18\/K18WG",
         "grossWt": 15,
@@ -5158,7 +5158,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 546,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Pink Opal-10.17 Alex-0.05 Diamond - 0.50",
         "metal": "K18WG",
         "grossWt": 14.2,
@@ -5166,7 +5166,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 547,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 33.44  Diamond - 2.73",
         "metal": "Pt900",
         "grossWt": 29,
@@ -5174,7 +5174,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 548,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 14.00 Diamond - 6.60",
         "metal": "K18YG",
         "grossWt": 27.5,
@@ -5182,7 +5182,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 549,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Tahiti Pearl 8.7-10.9Mm",
         "metal": "SV925",
         "grossWt": 60.2,
@@ -5190,7 +5190,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 550,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-12.60 Diamond - 6.35",
         "metal": "PT900\/850",
         "grossWt": 35,
@@ -5198,7 +5198,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 551,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Alexandrite Catseye - 2.63 Diamond -1.24",
         "metal": "PT900",
@@ -5207,7 +5207,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 552,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Sapphire - 2.59 Diamond - 0.64",
         "metal": "PT900",
@@ -5216,7 +5216,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 553,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16.5,
         "detail": "Ruby-1.68 Diamond - 0.47",
         "metal": "PM900",
@@ -5225,7 +5225,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 554,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 1.909 + Diamond",
         "metal": "PT900",
@@ -5234,7 +5234,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 555,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16.5,
         "detail": "Sapphire - 3.73 Diamond - 0.27",
         "metal": "PT900",
@@ -5243,7 +5243,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 556,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 18,
         "detail": "Ruby-2.82 Diamond - 1.03",
         "Particulars": "Thailand \/ Red \/ Heat",
@@ -5253,7 +5253,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 557,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 8.5,
         "detail": "Emerald - 2.46 Diamond - 0.54",
         "metal": "PT900",
@@ -5262,7 +5262,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 558,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 7,
         "detail": "Sapphire - 2.567 Diamond - 0.52",
         "metal": "PT900",
@@ -5271,7 +5271,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 559,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 8,
         "detail": "Ruby-1.90 + Diamond",
         "metal": "K18",
@@ -5280,7 +5280,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 560,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Ruby-1.70 Diamond - 1.49",
         "metal": "K18",
@@ -5289,7 +5289,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 561,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Yellow Sapphire - 9.414Diamond - 0.17",
         "Particulars": "Heat",
         "metal": "PT900\/850",
@@ -5298,7 +5298,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 562,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Emerald - 4.50 Diamond - 2.50",
         "metal": "PT900\/850",
         "grossWt": 14.3,
@@ -5306,7 +5306,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 563,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 0.81 Diamond - 0.55",
         "metal": "PT900\/850",
         "grossWt": 3.4,
@@ -5314,7 +5314,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 564,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 0.89 Diamond - 0.22",
         "metal": "K18WG",
         "grossWt": 4.4,
@@ -5322,7 +5322,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 565,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Paraiba-1.04 Diamond - 0.28",
         "Particulars": "Brazil \/ Blue Green \/ Heat",
         "metal": "PT900\/850",
@@ -5331,7 +5331,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 566,
-        "jwelleryType": "Bracelet",
+        "jewelleryType": "Bracelet",
         "detail": "Ruby-4.40 Diamond - 4.85",
         "metal": "PT900\/850",
         "grossWt": 26.6,
@@ -5339,7 +5339,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 567,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-1.95 Diamond - 0.61",
         "Particulars": "Thailand \/ Purplish Red \/ Heat",
         "metal": "PT900\/850",
@@ -5348,7 +5348,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 568,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Pink Sapphire - 2.022 Diamond - 0.26",
         "metal": "PT900\/850",
         "grossWt": 6.6,
@@ -5356,7 +5356,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 569,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Sapphire - 5.54 Diamond - 0.55",
         "Particulars": "Heat",
         "metal": "PT900\/850",
@@ -5365,7 +5365,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 570,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-1.562 Diamond - 1.00",
         "metal": "PT900\/850",
         "grossWt": 4.7,
@@ -5373,7 +5373,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 571,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.348 Diamond - 1.20",
         "metal": "PT900",
@@ -5382,7 +5382,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 572,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 1.96 Diamond - 0.76",
         "metal": "Pt900",
@@ -5391,7 +5391,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 573,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.753 Diamond - 0.63",
         "Particulars": "Thailand \/ Vivid Reddish Pink \/ Minor",
@@ -5401,7 +5401,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 574,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 1.24 Diamond - 1.13",
         "Particulars": "Colombia \/ Green \/ F2",
@@ -5411,7 +5411,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 575,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.61 Diamond - 0.08",
         "Particulars": "Mozambique \/ Purplish Red \/ No Heat",
@@ -5421,7 +5421,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 576,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Padparadscha Sapphire - 2.89 Diamond - 0.52",
         "Particulars": "Madagascar \/ Orangy Pink \/ No Heat",
@@ -5431,7 +5431,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 577,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Sapphire - 8.37 Diamond - 1.28",
         "metal": "PT900",
@@ -5440,7 +5440,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 578,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Redberyl-1.993 Diamond - 0.34",
         "metal": "PT900",
         "grossWt": 4.9,
@@ -5448,7 +5448,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 579,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Sapphire - 1.88 Diamond - 0.30",
         "Particulars": "Burma(Myanmar) \/ Royal Blue \/ No Heat",
@@ -5458,7 +5458,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 580,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Emerald - 2.64 Diamond - 0.88",
         "metal": "Pt900",
         "grossWt": 5.1,
@@ -5466,7 +5466,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 581,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Ruby-1.02 Diamond - 0.96",
         "metal": "PT900",
@@ -5475,7 +5475,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 582,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Purple Star Sapphire - 5.98 Diamond - 0.28",
         "metal": "K18WG",
         "grossWt": 14.6,
@@ -5483,7 +5483,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 583,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Pink Star Sapphire-7.73 Diamond - 0.62",
         "Particulars": "Myanmar \/ Purplish Pink \/ No Heat",
@@ -5493,7 +5493,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 584,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Sapphire - 1.00 Ruby - 0.82 Diamond - 2.69",
         "metal": "K18",
@@ -5502,7 +5502,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 585,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Opal-3.73 Diamond - 0.04",
         "metal": "PT900",
@@ -5511,7 +5511,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 586,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Emerald - 1.68",
         "metal": "Pt900",
@@ -5520,7 +5520,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 587,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Spinel-4.169 Diamond - 0.17",
         "metal": "PT900",
@@ -5529,7 +5529,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 588,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 2.30 Diamond - 0.92",
         "metal": "PT900",
@@ -5538,7 +5538,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 589,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 1.71 Diamond - 0.97",
         "metal": "Pt900",
@@ -5547,7 +5547,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 590,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Emerald - 2.385 Diamond - 0.38",
         "metal": "PT900",
@@ -5556,7 +5556,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 591,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 0.84 Diamond - 0.40",
         "metal": "PT900",
@@ -5565,7 +5565,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 592,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 16,
         "detail": "Emerald - 0.51 Diamond - 0.73",
         "metal": "PT900",
@@ -5574,7 +5574,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 593,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Sapphire - 1.808 Diamond - 0.20",
         "Particulars": "Madagascar \/ Cornflower Blue \/ Heat",
@@ -5584,7 +5584,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 594,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.259 Diamond - 1.00",
         "metal": "PT950",
@@ -5593,7 +5593,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 595,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Star Ruby - 4.86  Diamond - 0.75",
         "Particulars": "Myanmar \/ Reddish Pink \/ Pigeon Blood \/ No Heat",
@@ -5603,7 +5603,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 596,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Ruby-4.17 Diamond - 0.78",
         "metal": "K18",
@@ -5612,7 +5612,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 597,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Sapphire - 1.50 Diamond - 0.60",
         "metal": "PT900",
@@ -5621,7 +5621,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 598,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Sapphire - 1.60 + Diamond",
         "metal": "PT900",
@@ -5630,7 +5630,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 599,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 0.64 Diamond - 0.40",
         "metal": "PT900",
@@ -5639,7 +5639,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 600,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 0.41 Diamond - 0.25",
         "metal": "PT900",
@@ -5648,7 +5648,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 601,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.048 Diamond - 0.80",
         "metal": "PT900",
@@ -5657,7 +5657,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 602,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.006 Diamond - 0.15",
         "metal": "PT900",
@@ -5666,7 +5666,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 603,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Star Ruby - 3.81  Diamond - 0.82",
         "Particulars": "Burma(Myanmar) \/ Purplish Red \/ No Heat",
@@ -5676,7 +5676,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 604,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Pink Sapphire-1.86 Diamond - 0.29",
         "metal": "PT850",
@@ -5685,7 +5685,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 605,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 0.80 Diamond - 0.86",
         "metal": "PT950",
@@ -5694,7 +5694,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 606,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Emerald - 1.08 Diamond - 0.30",
         "metal": "PT900",
@@ -5703,7 +5703,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 607,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Emerald - 1.01 Diamond - 1.05",
         "metal": "K18",
@@ -5712,7 +5712,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 608,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.035 Diamond - 0.32",
         "metal": "PT900",
@@ -5721,7 +5721,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 609,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Pink Sapphire-1.178 Diamond - 0.43",
         "metal": "PT900",
@@ -5730,7 +5730,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 610,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Pink Sapphire-1.72 Diamond - 0.50",
         "metal": "PT850",
@@ -5739,7 +5739,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 611,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11.5,
         "detail": "Ruby-0.87 Diamond - 0.37",
         "metal": "PT900",
@@ -5748,7 +5748,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 612,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 3.09 Diamond - 0.62",
         "metal": "PT900",
@@ -5757,7 +5757,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 613,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 1.62 Diamond - 0.28",
         "metal": "PT900",
@@ -5766,7 +5766,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 614,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 1.79  Diamond - 0.83",
         "metal": "PT900",
@@ -5775,7 +5775,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 615,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15.5,
         "detail": "Ruby-1.60 Diamond - 0.70",
         "metal": "PT900",
@@ -5784,7 +5784,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 616,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 2.17 Diamond - 0.83",
         "metal": "PT900\/K18",
@@ -5793,7 +5793,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 617,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Sapphire - 1.01 Diamond - 1.40",
         "metal": "PT900",
@@ -5802,7 +5802,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 618,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10.5,
         "detail": "Padparadscha Sapphire - 1.18 Diamond - 0.87",
         "Particulars": "Orangish Pink",
@@ -5812,7 +5812,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 619,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 0.91 Ruby-0.22 Diamond - 0.83",
         "metal": "K18",
@@ -5821,7 +5821,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 620,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 17,
         "detail": "Star Sapphire - 7.166 Diamond - 0.10",
         "Particulars": "Myanmar \/ No Heat",
@@ -5831,7 +5831,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 621,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 3.342 Diamond - 0.96",
         "metal": "PT900",
@@ -5840,7 +5840,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 622,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 2.091 Diamond - 0.43",
         "metal": "PT900",
@@ -5849,7 +5849,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 623,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 0.91 Diamond - 0.55",
         "metal": "PT900",
@@ -5858,7 +5858,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 624,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13.5,
         "detail": "Emerald - 1.53 Diamond - 1.02",
         "metal": "PT900",
@@ -5867,7 +5867,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 625,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Padparadscha Sapphire - 3.68 Diamond - 0.84",
         "Particulars": "Sri Lanka \/ Orangy Pink \/ No Heat",
         "metal": "Pt900",
@@ -5876,7 +5876,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 626,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 1.436 Diamond - 0.88",
         "metal": "PT900",
@@ -5885,7 +5885,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 627,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Emerald - 1.84",
         "metal": "K18",
@@ -5894,7 +5894,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 628,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Pink Sapphire-1.474 Diamond - 0.97",
         "metal": "PT950",
@@ -5903,7 +5903,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 629,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 17,
         "detail": "Star Sapphire - 7.56 Diamond - 0.30",
         "metal": "PT900",
@@ -5912,7 +5912,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 630,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 8,
         "detail": "Sapphire - 4.14 Diamond - 1.261",
         "Particulars": "Sri Lanka \/ Blue \/ Heat",
@@ -5922,7 +5922,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 631,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Pink Sapphire-1.445 Diamond - 0.31",
         "metal": "K18WG",
@@ -5931,7 +5931,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 632,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 2.174 Diamond - 0.34",
         "Particulars": "Royal Blue \/ Heat",
@@ -5941,7 +5941,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 633,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15.5,
         "detail": "Sapphire -1.54 Diamond - 0.08",
         "Particulars": "Sri Lanka \/ Blue \/ Heat",
@@ -5951,7 +5951,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 634,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12.5,
         "detail": "Emerald - 0.63 Diamond - 0.47",
         "metal": "PT900",
@@ -5960,7 +5960,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 635,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald - 1.70   Diamond - 0.95",
         "metal": "PT900",
@@ -5969,7 +5969,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 636,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 15,
         "detail": "Emerald - 2.63 Diamond - 0.97+0.88",
         "metal": "K18",
@@ -5978,7 +5978,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 637,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.51 Diamond - 0.08",
         "Particulars": "Thailand \/ Red \/ Heat",
@@ -5988,7 +5988,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 638,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Pink Sapphire - 3.28 Diamond - 0.90",
         "Particulars": "Sri Lanka \/ Pink \/ Heat",
@@ -5998,7 +5998,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 639,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Jadeite - 2.52 Diamond - 0.45",
         "metal": "PT900",
@@ -6007,7 +6007,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 640,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 18,
         "detail": "Sapphire - 3.823 Diamond - 0.73",
         "metal": "PT900",
@@ -6016,7 +6016,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 641,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Star Sapphire - 19.13 Diamond - 0.76",
         "metal": "Pt900",
@@ -6025,7 +6025,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 642,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "detail": "Emerald - 2.33 Diamond - 0.62",
         "metal": "Pt900",
         "grossWt": 6.5,
@@ -6033,7 +6033,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 643,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Sapphire - 17.32 Diamond - 1.31",
         "metal": "K18",
         "grossWt": 6.3,
@@ -6041,7 +6041,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 644,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Emerald - 2.648 Diamond - 0.53+0.03",
         "metal": "PT900",
         "grossWt": 10.3,
@@ -6049,7 +6049,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 645,
-        "jwelleryType": "Pendant Top",
+        "jewelleryType": "Pendant Top",
         "detail": "Emerald - 2.68 Diamond - 0.40",
         "metal": "PT900",
         "grossWt": 5.7,
@@ -6057,7 +6057,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 646,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Pink Sapphire-1.62 Diamond - 0.25",
         "metal": "K18WG",
         "grossWt": 4,
@@ -6065,7 +6065,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 647,
-        "jwelleryType": "Necklace",
+        "jewelleryType": "Necklace",
         "detail": "Ruby-11.00 Diamond - 0.51",
         "Particulars": "Myanmar \/ Red \/ No Heat",
         "metal": "PT900\/850",
@@ -6074,7 +6074,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 648,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Emerald-2.32Diamond - 1.48",
         "metal": "K18YG",
@@ -6083,7 +6083,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 649,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 14,
         "detail": "Emerald - 8.35 Diamond - 0.03",
         "metal": "K18WG",
@@ -6092,7 +6092,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 650,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Sapphire - 2.68 Diamond - 1.76",
         "metal": "PT900",
@@ -6101,7 +6101,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 651,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Sapphire - 6.95Diamond - 0.43+0.76",
         "Particulars": "Sri Lanka \/ Blue \/ No Heat",
@@ -6111,7 +6111,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 652,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Ruby-1.26 Diamond - 0.35",
         "Particulars": "Burma(Myanmar) \/ Red \/ H(a)",
@@ -6121,7 +6121,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 653,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 12,
         "detail": "Ruby-0.99 Diamond - 1.05",
         "Particulars": "Myanmar \/ Pinkish Red(Pigeon Blood)\n\/ Heat",
@@ -6131,7 +6131,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 654,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10.5,
         "detail": "Padparadscha Sapphire - 1.04 Diamond - 0.58",
         "Particulars": "Sri Lanka \/ Orange Pink \/ No Heat",
@@ -6141,7 +6141,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 655,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 11,
         "detail": "Emerald - 1.25  Diamond - 0.62",
         "Particulars": "Afghanistan \/ Int.Green \/ Minor",
@@ -6151,7 +6151,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 656,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 9,
         "detail": "Ruby-1.34 Diamond - 0.31",
         "Particulars": "Myanmar \/ Vivid Pinkish Red \/ Minor",
@@ -6161,7 +6161,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 657,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Sapphire - 1.82 Diamond - 0.62",
         "Particulars": "Sri Lanka \/ Royal Blue \/ Heat",
@@ -6171,7 +6171,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 658,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 13,
         "detail": "Ruby-1.00 Diamond - 0.50",
         "Particulars": "Thailand \/ Purplish Red \/ Heat \/ Minor",
@@ -6181,7 +6181,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 659,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 10,
         "detail": "Star Ruby - 4.11  Diamond - 1.45",
         "Particulars": "Myanmar \/ Pinkish Red \/ No Heat",
@@ -6191,7 +6191,7 @@ const JwelleryData = [
     },
     {
         "itemNos": 660,
-        "jwelleryType": "Ring",
+        "jewelleryType": "Ring",
         "Size #": 7.6,
         "detail": "Ruby-3.09 Diamond - 1.55",
         "Particulars": "Thailand \/ Pinkish Red(Pigeon Blood) \/ Minor",

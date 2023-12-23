@@ -10,7 +10,7 @@ import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
 import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
-import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+import { GiDoubleNecklace } from "react-icons/gi";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
 import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
@@ -186,9 +186,9 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="View Data of Jwellery"
-              to="/jwellery"
-              icon={<CalendarTodayOutlinedIcon />}
+              title="View Data of Jewellery"
+              to="/jewellery"
+              icon={<GiDoubleNecklace size={25}/>}
               selected={selected}
               setSelected={setSelected}
             />

@@ -35,3 +35,8 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+
+.tox-statusbar{
+  display: none !important;
+}

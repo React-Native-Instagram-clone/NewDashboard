@@ -7,7 +7,8 @@ const JwelleryColsDefs = [
         editable:true,
         headerCheckboxSelection: true,
         checkboxSelection: true,
-        showDisabledCheckboxes: true,
+         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: 'jewelleryType',
@@ -16,7 +17,8 @@ const JwelleryColsDefs = [
         editable:true,
         headerCheckboxSelection: true,
         checkboxSelection: true,
-        showDisabledCheckboxes: true,
+         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: 'Brand',
@@ -25,7 +27,8 @@ const JwelleryColsDefs = [
         editable:true,
         headerCheckboxSelection: true,
         checkboxSelection: true,
-        showDisabledCheckboxes: true,
+         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: 'detail',
@@ -34,7 +37,8 @@ const JwelleryColsDefs = [
         editable:true,
         headerCheckboxSelection: true,
         checkboxSelection: true,
-        showDisabledCheckboxes: true,
+         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: 'metal',
@@ -43,19 +47,22 @@ const JwelleryColsDefs = [
         editable:true,
         headerCheckboxSelection: true,
         checkboxSelection: true,
-        showDisabledCheckboxes: true,
+         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: 'grossWt', filter: true, floatingFilter: true,
         editable:true, headerCheckboxSelection: true,
         checkboxSelection: true,
-        showDisabledCheckboxes: true,
+         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: 'price', filter: true, floatingFilter: true,
         editable:true, headerCheckboxSelection: true,
         checkboxSelection: true,
-        showDisabledCheckboxes: true,
+         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
 
 ];

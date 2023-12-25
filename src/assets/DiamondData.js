@@ -7,6 +7,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "sortingNos",
@@ -16,6 +17,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "lab",
@@ -25,6 +27,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "color",
@@ -34,6 +37,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "carat",
@@ -43,6 +47,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "clarity",
@@ -52,6 +57,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "shape",
@@ -61,6 +67,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "cut",
@@ -70,6 +77,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "fluorescence",
@@ -79,6 +87,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "measurement",
@@ -88,6 +97,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "polish",
@@ -97,6 +107,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "symmetry",
@@ -106,6 +117,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+         allowContextMenuWithControlKey:true,
     },
     {
         field: "auctionNos",
@@ -115,6 +127,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+        allowContextMenuWithControlKey:true,
     },
     {
         field: "dollarPrice",
@@ -124,6 +137,7 @@ const DiamondColsDefs = [
         headerCheckboxSelection: true,
         checkboxSelection: true,
         showDisabledCheckboxes: true,
+        allowContextMenuWithControlKey:true,
     }
 ]
 const DiamondData = [   //rowdata

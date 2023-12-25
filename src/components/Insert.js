@@ -1,10 +1,12 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import * as XLSX from "xlsx";
+import { useTheme } from "@mui/material";
 
 const Insert = () => {
   const [excelData, setExcelData] = useState([]);
   const [uploadStatus, setUploadStatus] = useState(null);
+  const theme = useTheme();
 
   const jsonToString = (data) => {
     let str = "";
@@ -23,7 +25,7 @@ const Insert = () => {
           : 0
       }),`;
     });
-    
+
     return str.substring(0, str.length - 1);
   };
 
@@ -34,15 +36,15 @@ const Insert = () => {
         const data = new Uint8Array(e.target.result);
         const workbook = XLSX.read(data, { type: "array" });
         const sheetName = workbook.SheetNames[0];
-        const excelData = XLSX.utils.sheet_to_json(
-          workbook.Sheets[sheetName]
-        );
+        const excelData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
         setExcelData(excelData);
         const values = jsonToString(excelData);
 
         // Update the following axios.post call to handle success and failure
         axios
-          .post("http://dashboard-server-esamyak.vercel.app/api/create", { values: values })
+          .post("http://dashboard-server-esamyak.vercel.app/api/create", {
+            values: values,
+          })
           .then(() => {
             setUploadStatus(true); // Set to true for success
           })
@@ -58,8 +60,7 @@ const Insert = () => {
     reader.readAsArrayBuffer(file);
   };
 
-  const handleButtonClick = () =>
-    document.getElementById("fileInput").click();
+  const handleButtonClick = () => document.getElementById("fileInput").click();
 
   const handleFileChange = (e) => {
     const file = e.target.files[0];
@@ -85,15 +86,20 @@ const Insert = () => {
   return (
     <div className="relative  max-w-2xl mt-10 mx-10">
       <div
-        className={`border rounded p-4 mb-4 text-center ${
+        className={`border-2 rounded p-4 mb-4 text-center ${
+          (theme.palette.mode === "dark" ? "border-white" : "border-black",
           uploadStatus === true
             ? "border-green-500"
             : uploadStatus === false
             ? "border-red-500"
-            : ""
+            : "")
         }`}
       >
-        <p className="text-white text-3xl mb-4 blinking-border">
+        <p
+          className={`text-3xl mb-4 blinking-border ${
+            theme.palette.mode === "dark" ? "text-white" : "text-black"
+          }`}
+        >
           File Upload Utility (Only Excel File)
         </p>
 
@@ -140,7 +146,7 @@ const Insert = () => {
   );
 };
 
-export default Insert; 
+export default Insert;
 /* 
 
 import React, { useState, useEffect } from "react";

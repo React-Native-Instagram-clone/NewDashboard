@@ -9,7 +9,7 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
 import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
+// import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
 import { GiDoubleNecklace } from "react-icons/gi";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
@@ -19,6 +19,8 @@ import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import FileUploadIcon from '@mui/icons-material/FileUpload';
 import EmailIcon from '@mui/icons-material/Email';
 import DiamondOutlinedIcon from '@mui/icons-material/DiamondOutlined';
+import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
+import ListIcon from '@mui/icons-material/List';
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -232,6 +234,29 @@ const Sidebar = () => {
               title="Geography Chart"
               to="/geography"
               icon={<MapOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+
+<Typography
+              variant="h6"
+              color={colors.grey[300]}
+              sx={{ m: "15px 0 5px 20px" }}
+            >
+              Admin
+            </Typography>
+
+            <Item
+              title="Menu Items"
+              to="/MenuItemForm"
+              icon={<ListIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
+            <Item
+              title="Admin Panel"
+              to="/adminpanel"
+              icon={< AdminPanelSettingsIcon />}
               selected={selected}
               setSelected={setSelected}
             />

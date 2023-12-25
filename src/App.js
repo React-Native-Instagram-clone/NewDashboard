@@ -13,6 +13,9 @@ import EmailUtility from './components/Email'
 import JewelleryGrid from "./AgGrid/JewelleryGrid";
 import DiamondGrid from "./AgGrid/DiamondGrid";
 
+import MenuItemForm from "./components/Menuitem"
+import AdminPanelForm from "./components/Adminpanel";
+
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
@@ -33,7 +36,9 @@ function App() {
               <Route path="/insert" element={<Insert />} />
               <Route path="/emailutility" element={<EmailUtility />} />
               <Route path='/jewellery' element={<JewelleryGrid />} />
-              <Route path ='diamond' element={<DiamondGrid/>}/>
+              <Route path ='/diamond' element={<DiamondGrid/>}/>
+              <Route path ='/menuitemform' element={<MenuItemForm/>}/>
+              <Route path ='/adminpanel' element={<AdminPanelForm/>}/>
             </Routes>
           </main>
         </div>

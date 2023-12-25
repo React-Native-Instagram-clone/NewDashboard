@@ -17,7 +17,6 @@ const AdminPanelForm = () => {
       [name]: value,
     });
 
-    // Set background color based on the selected option
     setStatusColor(value === 'Yes' ? 'lightgreen' : 'lightcoral');
   };
 

@@ -18,13 +18,13 @@ const MenuItemForm = () => {
       [name]: value,
     });
 
-    // Set background color based on the selected option
+  
     setStatusColor(value === 'Yes' ? 'lightgreen' : 'lightcoral');
   };
 
-  const labelStyle = { fontSize: '1.2rem' }; // Font size for labels
-  const inputStyle = { fontSize: '1rem' }; // Font size for input fields
-  const selectStyle = { fontSize: '1rem' }; // Font size for select field
+  const labelStyle = { fontSize: '1.2rem' }; 
+  const inputStyle = { fontSize: '1rem' };
+  const selectStyle = { fontSize: '1rem' }; 
 
   return (
     <div className="container mt-5">

@@ -25,7 +25,7 @@ const AdminPanelForm = () => {
 
   return (
     <div className="container mt-5">
-       <Header title="Admin Panel"/>
+       <Header title="ADMIN PANEL"/>
       <div className="border p-4 rounded">
         <form>
           <div className="mb-3">

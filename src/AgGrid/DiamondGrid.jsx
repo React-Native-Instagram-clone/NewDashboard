@@ -5,7 +5,7 @@ import "ag-grid-community/styles/ag-theme-quartz.css"; // Theme
 import { DiamondColsDefs, DiamondData } from "../assets/DiamondData";
 import "ag-grid-enterprise";
 import { useTheme } from "@mui/material";
-
+import Header from "../components/Header"
 const DiamondGrid = () => {
   const [rowData, setRowData] = useState(DiamondData);
   const theme = useTheme();
@@ -14,6 +14,9 @@ const DiamondGrid = () => {
   const [colDefs, setColDefs] = useState(DiamondColsDefs);
   return (
     <>
+    
+     <Header  title="DIAMOND DATA" />
+    
       <div
         className={
           theme.palette.mode === "light"
@@ -30,6 +33,7 @@ const DiamondGrid = () => {
           rowDragManaged={true}
         />
       </div>
+    
     </>
   );
 };

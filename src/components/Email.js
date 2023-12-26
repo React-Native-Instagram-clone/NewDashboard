@@ -4,6 +4,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
 import { Editor } from "@tinymce/tinymce-react";
 
+
 const EmailUtility = () => {
   const [to, setTo] = useState("");
   const [cc, setCc] = useState("");
@@ -58,7 +59,10 @@ const EmailUtility = () => {
   };
 
   return (
+<div>
+   
     <div className="max-w-2xl mx-auto mt-8 p-4 border border-gray-300 rounded shadow-lg bg-white">
+    
       <h2 className="text-2xl font-semibold mb-4 text-gray-800 border-b-2 pb-2">
         New Message
       </h2>
@@ -175,7 +179,7 @@ const EmailUtility = () => {
       >
         <span className="material-icons"></span> Send Email
       </button>
-    </div>
+    </div></div>
   );
 };
 

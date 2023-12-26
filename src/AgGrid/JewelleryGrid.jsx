@@ -5,6 +5,7 @@ import "ag-grid-community/styles/ag-theme-quartz.css"; // Theme
 import "ag-grid-enterprise";
 import { JwelleryColsDefs, JwelleryData } from "../assets/JewelleryData";
 import { useTheme } from "@mui/material";
+import Header from "../components/Header"
 
 const JewelleryGrid = () => {
   const [rowData, setRowData] = useState(JwelleryData);
@@ -12,7 +13,9 @@ const JewelleryGrid = () => {
   const theme = useTheme();
 
   return (
+    
     <>
+     <Header title="JEWELLERY DATA"/>
       <div
         className={
           theme.palette.mode === "light"

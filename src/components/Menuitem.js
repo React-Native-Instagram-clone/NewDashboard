@@ -1,5 +1,4 @@
 
-
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
@@ -29,7 +28,8 @@ const MenuPage = () => {
     <div className="container mt-5">
       <div className="row mb-4">
         <div className="col-md-12">
-        <Header title="Menu Items"/>
+       
+        <Header title="MENU ITEMS"/>
         </div>
       </div>
       <div className="row">
@@ -141,6 +141,7 @@ const MenuPage = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

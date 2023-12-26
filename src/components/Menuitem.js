@@ -1,112 +1,147 @@
+
+
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Header';
 
-const MenuItemForm = () => {
-  const [formData, setFormData] = useState({
-    label: '',
-    menuHeading: '',
-    headingName: '',
-    activeStatus: 'Select Status',
-  });
+const MenuPage = () => {
+  const [menuHeading, setMenuHeading] = useState('');
+  const [activeStatus, setActiveStatus] = useState('Yes');
 
-  const [statusColor, setStatusColor] = useState('white');
+  const [newMenuHeading, setNewMenuHeading] = useState('');
+  const [newMenuName, setNewMenuName] = useState('');
+  const [newActiveStatus, setNewActiveStatus] = useState('Yes');
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-
-  
-    setStatusColor(value === 'Yes' ? 'lightgreen' : 'lightcoral');
+  const handleAddMenuItem = () => {
+    console.log('Adding Menu Item:', menuHeading, 'with status:', activeStatus);
+    setMenuHeading('');
+    setActiveStatus('Yes');
   };
 
-  const labelStyle = { fontSize: '1.2rem' }; 
-  const inputStyle = { fontSize: '1rem' };
-  const selectStyle = { fontSize: '1rem' }; 
+  const handleAddNewMenuItem = () => {
+    console.log('Adding New Menu Item:', newMenuHeading, newMenuName, 'with status:', newActiveStatus);
+    setNewMenuHeading('');
+    setNewMenuName('');
+    setNewActiveStatus('Yes');
+  };
 
   return (
     <div className="container mt-5">
-      <div className="border p-4 rounded">
-        <h1 className="mb-4">Menu Item</h1>
-        <form>
-          <div className="mb-3">
-            <label htmlFor="label" className="form-label" style={labelStyle}>
-              Label:
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="label"
-              name="label"
-              value={formData.label}
-              onChange={handleChange}
-              style={inputStyle}
-              placeholder="Label"
-            />
+      <div className="row mb-4">
+        <div className="col-md-12">
+        <Header title="Menu Items"/>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-15 h-100 d-flex flex-column justify-content-center">
+          <div className="card">
+            <div className="card-body">
+              <h2 className="card-title">Add Menu Heading</h2>
+              <form>
+                <div className="mb-3">
+                  <label htmlFor="menuHeading" className="form-label">
+                    Menu Heading:
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="menuHeading"
+                    value={menuHeading}
+                    onChange={(e) => setMenuHeading(e.target.value)}
+                  />
+                </div>
+                <div className="mb-3">
+                  <label className="form-check-label">Active:</label>
+                  <div className="form-check form-check-inline ml-3">
+                    <input
+                      type="radio"
+                      className="form-check-input"
+                      value="Yes"
+                      checked={activeStatus === 'Yes'}
+                      onChange={() => setActiveStatus('Yes')}
+                    />
+                    <label className="form-check-label">Yes</label>
+                  </div>
+                  <div className="form-check form-check-inline">
+                    <input
+                      type="radio"
+                      className="form-check-input"
+                      value="No"
+                      checked={activeStatus === 'No'}
+                      onChange={() => setActiveStatus('No')}
+                    />
+                    <label className="form-check-label">No</label>
+                  </div>
+                </div>
+                <button type="button" className="btn btn-primary btn-lg btn-block" onClick={handleAddMenuItem}>
+                  Add
+                </button>
+              </form>
+            </div>
           </div>
-
-          <div className="mb-3">
-            <label htmlFor="menuHeading" className="form-label" style={labelStyle}>
-              Menu Heading:
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="menuHeading"
-              name="menuHeading"
-              value={formData.menuHeading}
-              onChange={handleChange}
-              style={inputStyle}
-              placeholder="Menu Heading"
-            />
+        </div>
+      </div>
+      <div className="row mt-5">
+        <div className="col-md-15">
+          <div className="card">
+            <div className="card-body">
+              <h3 className="card-title">Add Menu Item</h3>
+              <form>
+                <div className="mb-3">
+                  <label htmlFor="selectMenuHeading" className="form-label">
+                    Select Menu Heading:
+                  </label>
+                  <select className="form-select" id="selectMenuHeading">
+                    <option value="utility">Utility</option>
+                    <option value="chart">Chart</option>
+                    <option value="page">Page</option>
+                  </select>
+                </div>
+                <div className="mb-3">
+                  <label htmlFor="menuName" className="form-label">
+                    Menu Name:
+                  </label>
+                  <input
+                    type="text"
+                    className="form-control"
+                    id="menuName"
+                    value={newMenuName}
+                    onChange={(e) => setNewMenuName(e.target.value)}
+                  />
+                </div>
+                <div className="mb-3">
+                  <label className="form-check-label">Active:</label>
+                  <div className="form-check form-check-inline ml-3">
+                    <input
+                      type="radio"
+                      className="form-check-input"
+                      value="Yes"
+                      checked={newActiveStatus === 'Yes'}
+                      onChange={() => setNewActiveStatus('Yes')}
+                    />
+                    <label className="form-check-label">Yes</label>
+                  </div>
+                  <div className="form-check form-check-inline">
+                    <input
+                      type="radio"
+                      className="form-check-input"
+                      value="No"
+                      checked={newActiveStatus === 'No'}
+                      onChange={() => setNewActiveStatus('No')}
+                    />
+                    <label className="form-check-label">No</label>
+                  </div>
+                </div>
+                <button type="button" className="btn btn-primary btn-lg btn-block" onClick={handleAddNewMenuItem}>
+                  Add
+                </button>
+              </form>
+            </div>
           </div>
-
-          <div className="mb-3">
-            <label htmlFor="headingName" className="form-label" style={labelStyle}>
-              Heading Name:
-            </label>
-            <input
-              type="text"
-              className="form-control"
-              id="headingName"
-              name="headingName"
-              value={formData.headingName}
-              onChange={handleChange}
-              style={inputStyle}
-              placeholder="Heading Name"
-            />
-          </div>
-
-          <div className="mb-3">
-            <label htmlFor="activeStatus" className="form-label" style={labelStyle}>
-              Select Status:
-            </label>
-            <select
-              className="form-select"
-              id="activeStatus"
-              name="activeStatus"
-              value={formData.activeStatus}
-              onChange={handleChange}
-              style={{
-                backgroundColor: statusColor,
-                ...selectStyle,
-              }}
-            >
-              <option value=" ">Select Status</option>
-              <option value="Yes">Yes</option>
-              <option value="No">No</option>
-            </select>
-          </div>
-
-          <button type="submit" className="btn btn-primary">
-            Submit
-          </button>
-        </form>
+        </div>
       </div>
     </div>
   );
 };
 
-export default MenuItemForm;
+export default MenuPage;

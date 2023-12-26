@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import * as XLSX from "xlsx";
 import { useTheme } from "@mui/material";
+import Header from "./Header";
 
 const Insert = () => {
   const [excelData, setExcelData] = useState([]);
@@ -84,7 +85,9 @@ const Insert = () => {
   }, []);
 
   return (
+    
     <div className="relative  max-w-2xl mt-10 mx-10">
+      <Header  title="FILE UPLOAD UTILITY (ONLY EXCEL FILE)" />
       <div
         className={`border-2 rounded p-4 mb-4 text-center ${
           (theme.palette.mode === "dark" ? "border-white" : "border-black",
@@ -95,13 +98,13 @@ const Insert = () => {
             : "")
         }`}
       >
-        <p
+        {/* <p
           className={`text-3xl mb-4 blinking-border ${
             theme.palette.mode === "dark" ? "text-white" : "text-black"
           }`}
         >
-          File Upload Utility (Only Excel File)
-        </p>
+         
+        </p> */}
 
         {uploadStatus !== null && (
           <p
@@ -115,7 +118,7 @@ const Insert = () => {
           </p>
         )}
 
-        <div className="relative h-32 w-32 margin my-4 mx-auto items-center">
+        <div className="relative h-43 w-52 margin my-5 mx-auto items-center">
           <input
             type="file"
             id="fileInput"
@@ -125,7 +128,7 @@ const Insert = () => {
           <button onClick={() => handleButtonClick()}>
             <a
               href="#_"
-              className={`px-5 py-2.5 relative rounded group font-medium text-white inline-block blinking-border ${
+              className={`px-20 py-2.5 relative rounded group font-medium text-white inline-block blinking-border ${
                 uploadStatus === true
                   ? "bg-green-400"
                   : uploadStatus === false
@@ -137,7 +140,7 @@ const Insert = () => {
               <span className="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>
               <span className="absolute inset-0 w-full h-full transition-all duration-200 ease-out rounded shadow-xl bg-gradient-to-br filter group-active:opacity-0 group-hover:blur-sm from-purple-600 to-blue-500"></span>
               <span className="absolute inset-0 w-full h-full transition duration-200 ease-out rounded bg-gradient-to-br to-purple-600 from-blue-500"></span>
-              <span className="relative">Insert Data File</span>
+              <span className="relative text-1xl mb-2">INSERT DATA FILE</span>
             </a>
           </button>
         </div>

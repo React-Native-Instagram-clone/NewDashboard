@@ -1,35 +1,97 @@
-
-import React, { useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './Header';
+import React, { useEffect, useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "./Header";
+import axios from "axios";
 
 const MenuPage = () => {
-  const [menuHeading, setMenuHeading] = useState('');
-  const [activeStatus, setActiveStatus] = useState('Yes');
+  const [menuHeading, setMenuHeading] = useState("");
+  const [activeStatus, setActiveStatus] = useState("Yes");
+  const [data, setData] = useState([]);
+  const [newMenuHeading, setNewMenuHeading] = useState("");
+  const [newMenuName, setNewMenuName] = useState("");
+  const [newActiveStatus, setNewActiveStatus] = useState("Yes");
 
-  const [newMenuHeading, setNewMenuHeading] = useState('');
-  const [newMenuName, setNewMenuName] = useState('');
-  const [newActiveStatus, setNewActiveStatus] = useState('Yes');
-
-  const handleAddMenuItem = () => {
-    console.log('Adding Menu Item:', menuHeading, 'with status:', activeStatus);
-    setMenuHeading('');
-    setActiveStatus('Yes');
+  const handleAddMenuItem = async (e) => {
+    e.preventDefault();
+    console.log("Adding Menu Item:", menuHeading, "with status:", activeStatus);
+    try {
+      const response = await axios.post(
+        "https://myserver-kohl.vercel.app/api/addMenuHeading",
+        {
+          name: menuHeading,
+          status: activeStatus === "Yes",
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+          },
+        }
+      );
+      console.log("User added successfully:", response.data);
+      setMenuHeading("");
+      setActiveStatus("Yes");
+    } catch (error) {
+      console.error("Error setting up the request:", error.message);
+    }
   };
 
-  const handleAddNewMenuItem = () => {
-    console.log('Adding New Menu Item:', newMenuHeading, newMenuName, 'with status:', newActiveStatus);
-    setNewMenuHeading('');
-    setNewMenuName('');
-    setNewActiveStatus('Yes');
+  const handleAddNewMenuItem = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post(
+        "https://myserver-kohl.vercel.app/api/addMenuItem",
+        {
+          name: newMenuName,
+          heading: "658afc3a1e661ef4873dd8d0",
+          status: newActiveStatus === "Yes",
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+            "Access-Control-Allow-Origin": "*",
+          },
+        }
+      );
+      console.log(response);
+    } catch (error) {
+      console.error("Error setting up the request:", error.message);
+    }
+    console.log(
+      "Adding New Menu Item:",
+      newMenuHeading,
+      newMenuName,
+      "with status:",
+      newActiveStatus
+    );
+    setNewMenuHeading("");
+    setNewMenuName("");
+    setNewActiveStatus("Yes");
   };
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch(
+          "https://myserver-kohl.vercel.app/api/fetchMenuHeading",
+          {
+            method: "GET",
+          }
+        );
+        const json = await response.json();
+        setData(json);
+      } catch (error) {
+        console.error("Error setting up the request:", error.message);
+      }
+    };
+    fetchData();
+  }, [handleAddNewMenuItem]);
 
   return (
     <div className="container mt-5">
       <div className="row mb-4">
         <div className="col-md-12">
-       
-        <Header title="MENU ITEMS"/>
+          <Header title="MENU ITEMS" />
         </div>
       </div>
       <div className="row">
@@ -57,8 +119,8 @@ const MenuPage = () => {
                       type="radio"
                       className="form-check-input"
                       value="Yes"
-                      checked={activeStatus === 'Yes'}
-                      onChange={() => setActiveStatus('Yes')}
+                      checked={activeStatus === "Yes"}
+                      onChange={() => setActiveStatus("Yes")}
                     />
                     <label className="form-check-label">Yes</label>
                   </div>
@@ -67,13 +129,17 @@ const MenuPage = () => {
                       type="radio"
                       className="form-check-input"
                       value="No"
-                      checked={activeStatus === 'No'}
-                      onChange={() => setActiveStatus('No')}
+                      checked={activeStatus === "No"}
+                      onChange={() => setActiveStatus("No")}
                     />
                     <label className="form-check-label">No</label>
                   </div>
                 </div>
-                <button type="button" className="btn btn-primary btn-lg btn-block" onClick={handleAddMenuItem}>
+                <button
+                  type="button"
+                  className="btn btn-primary btn-lg btn-block"
+                  onClick={handleAddMenuItem}
+                >
                   Add
                 </button>
               </form>
@@ -92,9 +158,11 @@ const MenuPage = () => {
                     Select Menu Heading:
                   </label>
                   <select className="form-select" id="selectMenuHeading">
-                    <option value="utility">Utility</option>
-                    <option value="chart">Chart</option>
-                    <option value="page">Page</option>
+                    {data.map(({ _id, name }) => (
+                      <option key={_id} value={_id}>
+                        {name}
+                      </option>
+                    ))}
                   </select>
                 </div>
                 <div className="mb-3">
@@ -116,8 +184,8 @@ const MenuPage = () => {
                       type="radio"
                       className="form-check-input"
                       value="Yes"
-                      checked={newActiveStatus === 'Yes'}
-                      onChange={() => setNewActiveStatus('Yes')}
+                      checked={newActiveStatus === "Yes"}
+                      onChange={() => setNewActiveStatus("Yes")}
                     />
                     <label className="form-check-label">Yes</label>
                   </div>
@@ -126,13 +194,17 @@ const MenuPage = () => {
                       type="radio"
                       className="form-check-input"
                       value="No"
-                      checked={newActiveStatus === 'No'}
-                      onChange={() => setNewActiveStatus('No')}
+                      checked={newActiveStatus === "No"}
+                      onChange={() => setNewActiveStatus("No")}
                     />
                     <label className="form-check-label">No</label>
                   </div>
                 </div>
-                <button type="button" className="btn btn-primary btn-lg btn-block" onClick={handleAddNewMenuItem}>
+                <button
+                  type="button"
+                  className="btn btn-primary btn-lg btn-block"
+                  onClick={handleAddNewMenuItem}
+                >
                   Add
                 </button>
               </form>
@@ -141,7 +213,6 @@ const MenuPage = () => {
         </div>
       </div>
     </div>
-    
   );
 };
 

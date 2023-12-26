@@ -9,7 +9,24 @@ const Form = () => {
   const isNonMobile = useMediaQuery("(min-width:600px)");
 
   const handleFormSubmit = (values) => {
-    console.log(values);
+    // localStorage.setItem("user", JSON.stringify(values));
+    //array of all user in localstorage
+    const users = JSON.parse(localStorage.getItem("users")) || [];
+    //adding new user to array
+    users.push(values);
+    //setting array to localstorage
+    localStorage.setItem("users", JSON.stringify(users));
+
+    //alert if user-email already exists
+    const user = JSON.parse(localStorage.getItem("users"));
+    const userEmail = user.map((user) => user.email);
+    const email = userEmail.includes(values.email);
+    if (email) {
+      alert("User already exists");
+    } else {
+      alert("User Created Successfully");
+    }
+    
   };
 
   return (
@@ -214,11 +231,11 @@ const checkoutSchema = yup.object().shape({
     .required("Confirm Password is required"),
   firstName: yup.string().required("First Name is required"),
   lastName: yup.string().required("Last Name is required"),
-  website: yup.string().url("Invalid URL").required("Website is required"),
+  website: yup.string().url("Invalid URL"),
   username: yup.string().required("Username is required"),
-  nickname: yup.string().required("Nickname is required"),
-  displayName: yup.string().required("Display Name is required"),
-  inputField: yup.string().required("Input Field is required"),
+  nickname: yup.string(),
+  displayName: yup.string(),
+  inputField: yup.string(),
 });
 
 const initialValues = {

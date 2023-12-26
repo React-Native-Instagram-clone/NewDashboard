@@ -45,7 +45,8 @@ const Sidebar = () => {
   const colors = tokens(theme.palette.mode);
   const [isCollapsed, setIsCollapsed] = useState(false);
   const [selected, setSelected] = useState("Dashboard");
-
+  const signedInUser = JSON.parse(localStorage.getItem("signedInUser"));
+  console.log(signedInUser, "signedInUser")
   return (
     <Box
       sx={{
@@ -112,10 +113,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                 Esamayak
+                  Esamayak
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                Dashboard
+                  Dashboard
                 </Typography>
               </Box>
             </Box>
@@ -130,136 +131,143 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
 
-            <Typography
-              variant="h6"
-              color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
-            >
-              Utility
-            </Typography>
-            <Item
-              title="Email Utility"
-              to="/emailutility"
-              icon={<EmailIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="SMS Utility"
-              to="/contacts"
-              icon={<ContactsOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="File Upload Utility"
-              to="/insert"
-              icon={<FileUploadIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-             <Item
-              title="Report Utility"
-              to="/invoices"
-              icon={<ReceiptOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+            {signedInUser === 'Auc' || signedInUser === 'Admin' || signedInUser === 'Superadmin'||signedInUser===null ? <div>
+              <Typography
+                variant="h6"
+                color={colors.grey[300]}
+                sx={{ m: "15px 0 5px 20px" }}
+              >
+                Utility
+              </Typography>
+              <Item
+                title="Email Utility"
+                to="/emailutility"
+                icon={<EmailIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="SMS Utility"
+                to="/contacts"
+                icon={<ContactsOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="File Upload Utility"
+                to="/insert"
+                icon={<FileUploadIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Report Utility"
+                to="/invoices"
+                icon={<ReceiptOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+            </div> : null}
 
-            <Typography
-              variant="h6"
-              color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
-            >
-              Pages
-            </Typography>
-            <Item
-              title="Registration Form"
-              to="/registration"
-              icon={<PersonOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Login Form"
-              to="/login"
-              icon={<PersonOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="View Data of Jewellery"
-              to="/jewellery"
-              icon={<GiDoubleNecklace size={25}/>}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="View Data of Diamond"
-              to="/diamond"
-              icon={<DiamondOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+            {signedInUser === 'Bid' || signedInUser === 'Admin' || signedInUser === 'Superadmin'||signedInUser===null ? <div>
+              <Typography
+                variant="h6"
+                color={colors.grey[300]}
+                sx={{ m: "15px 0 5px 20px" }}
+              >
+                Pages
+              </Typography>
+              <Item
+                title="Registration Form"
+                to="/registration"
+                icon={<PersonOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Login Form"
+                to="/login"
+                icon={<PersonOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="View Data of Jewellery"
+                to="/jewellery"
+                icon={<GiDoubleNecklace size={25} />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="View Data of Diamond"
+                to="/diamond"
+                icon={<DiamondOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+            </div> : null}
 
-            <Typography
-              variant="h6"
-              color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
-            >
-              Charts
-            </Typography>
-            <Item
-              title="Bar Chart"
-              to="/bar"
-              icon={<BarChartOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Pie Chart"
-              to="/pie"
-              icon={<PieChartOutlineOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Line Chart"
-              to="/line"
-              icon={<TimelineOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Geography Chart"
-              to="/geography"
-              icon={<MapOutlinedIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+            {signedInUser === 'Admin' || signedInUser === 'Superadmin'||signedInUser===null ? <div>
+              <Typography
+                variant="h6"
+                color={colors.grey[300]}
+                sx={{ m: "15px 0 5px 20px" }}
+              >
+                Charts
+              </Typography>
+              <Item
+                title="Bar Chart"
+                to="/bar"
+                icon={<BarChartOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Pie Chart"
+                to="/pie"
+                icon={<PieChartOutlineOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Line Chart"
+                to="/line"
+                icon={<TimelineOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Geography Chart"
+                to="/geography"
+                icon={<MapOutlinedIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+            </div> : null}
 
-<Typography
-              variant="h6"
-              color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
-            >
-              Admin
-            </Typography>
-
-            <Item
-              title="Menu Items"
-              to="/MenuItemForm"
-              icon={<ListIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
-            <Item
-              title="Admin Panel"
-              to="/adminpanel"
-              icon={< AdminPanelSettingsIcon />}
-              selected={selected}
-              setSelected={setSelected}
-            />
+            {signedInUser === 'Superadmin'||signedInUser===null ? <div>
+              <Typography
+                variant="h6"
+                color={colors.grey[300]}
+                sx={{ m: "15px 0 5px 20px" }}
+              >
+                Admin
+              </Typography>
+              <Item
+                title="Menu Items"
+                to="/MenuItemForm"
+                icon={<ListIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+              <Item
+                title="Admin Panel"
+                to="/adminpanel"
+                icon={< AdminPanelSettingsIcon />}
+                selected={selected}
+                setSelected={setSelected}
+              />
+            </div> : null}
           </Box>
         </Menu>
       </ProSidebar>

@@ -10,7 +10,6 @@ const AdminPanelForm = () => {
   });
 
   const [statusColor, setStatusColor] = useState('white');
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -21,13 +20,24 @@ const AdminPanelForm = () => {
     setStatusColor(value === 'Yes' ? 'lightgreen' : 'lightcoral');
   };
 
-  const users = ['Dipti', 'Heena', 'Rupesh', 'Dhruv', 'Anushri', 'Durgesh', 'Saket', 'Sushant', 'Vijay', 'Vinay', 'esamyak'];
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData,"formData")
+    //array to stire all formdata in localstorage as assignedRoles
+    const assignedRoles = JSON.parse(localStorage.getItem("assignedRoles")) || [];
+    //adding new user to array
+    assignedRoles.push(formData);
+    //setting array to localstorage
+    localStorage.setItem("assignedRoles", JSON.stringify(assignedRoles));
+    
+  }
 
-  return (
+  const users = JSON.parse(localStorage.getItem("users"))?JSON.parse(localStorage.getItem("users")).map((user)=>user.username):[];
+    return (
     <div className="container mt-5">
        <Header title="ADMIN PANEL"/>
       <div className="border p-4 rounded">
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="mb-3">
             <label htmlFor="user" className="form-label" style={{ fontSize: '1.2rem' }}>
               User Name:

@@ -19,13 +19,17 @@ import LineChart from '../../components/LineChart';
 import GeographyChart from '../../components/GeographyChart';
 import BarChart from '../../components/BarChart';
 import StatBox from '../../components/StatBox';
+import LogoutIcon from '@mui/icons-material/Logout';
 import ProgressCircle from '../../components/ProgressCircle';
 
 const Dashboard = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
   const colors = tokens(theme.palette.mode);
-
+  const handleLogout = () => {
+    alert("Logged Out Successfully you will lost your assigned role are u sure u want to logout?")
+    localStorage.setItem("signedInUser",JSON.stringify("Superadmin"))
+  }
   return (
     <Box m={isMobile ? '10px' : '20px'}>
       {/* HEADER */}
@@ -37,7 +41,20 @@ const Dashboard = () => {
       >
         <Header title="UTILITY DASHBOARD" subtitle="Welcome to Utility Dashboard" />
 
-        <Box mt={isMobile ? '10px' : '0'}>
+        <Box mt={isMobile ? '10px' : '0'} gap="30px" display="flex">
+          <Button
+            sx={{
+              backgroundColor: colors.blueAccent[700],
+              color: colors.grey[100],
+              fontSize: isMobile ? '12px' : '14px',
+              fontWeight: 'bold',
+              padding: isMobile ? '8px 15px' : '10px 20px',
+            }}
+            onClick={handleLogout}
+          >
+            <LogoutIcon sx={{ mr: isMobile ? '5px' : '10px' }} />
+            LogOut
+          </Button>
           <Button
             sx={{
               backgroundColor: colors.blueAccent[700],

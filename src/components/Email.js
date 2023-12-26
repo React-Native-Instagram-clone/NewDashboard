@@ -59,8 +59,11 @@ const EmailUtility = () => {
   };
 
   return (
+    <div>
+<Header title="EMAIL UTILITY" className="mb-4" />
+
 <div>
-<Header title="Email Utility" subtitle="" />
+
     <div className="max-w-2xl mx-auto mt-8 p-4 border border-gray-300 rounded shadow-lg bg-white">
     
       <h2 className="text-2xl font-semibold mb-4 text-gray-800 border-b-2 pb-2">
@@ -179,7 +182,7 @@ const EmailUtility = () => {
       >
         <span className="material-icons"></span> Send Email
       </button>
-    </div></div>
+    </div></div></div>
   );
 };
 

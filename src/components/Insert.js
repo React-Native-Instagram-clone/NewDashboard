@@ -12,19 +12,14 @@ const Insert = () => {
   const jsonToString = (data) => {
     let str = "";
     data.map((row) => {
-      str += `(${row["Item Nos"] !== undefined ? row["Item Nos"] : 0},'${
-        row["Jewelry Type"] !== undefined ? row["Jewelry Type"] : " "
-      }','${row["BRAND"] !== undefined ? row["BRAND"] : " "}','${
-        row["Detail"] !== undefined ? row["Detail"] : " "
-      }',${row["Gross Wt."] !== undefined ? row["Gross Wt."] : 0},'${
-        row["Metal"] !== undefined ? row["Metal"] : " "
-      }','${row["Particulars"] !== undefined ? row["Particulars"] : " "}',${
-        row["Size #"] !== undefined ? row["Size #"] : 0
-      },'${row["Remarks"] !== undefined ? row["Remarks"] : " "}',${
-        row["Start Price in US $"] !== undefined
+      str += `(${row["Item Nos"] !== undefined ? row["Item Nos"] : 0},'${row["Jewelry Type"] !== undefined ? row["Jewelry Type"] : " "
+        }','${row["BRAND"] !== undefined ? row["BRAND"] : " "}','${row["Detail"] !== undefined ? row["Detail"] : " "
+        }',${row["Gross Wt."] !== undefined ? row["Gross Wt."] : 0},'${row["Metal"] !== undefined ? row["Metal"] : " "
+        }','${row["Particulars"] !== undefined ? row["Particulars"] : " "}',${row["Size #"] !== undefined ? row["Size #"] : 0
+        },'${row["Remarks"] !== undefined ? row["Remarks"] : " "}',${row["Start Price in US $"] !== undefined
           ? row["Start Price in US $"]
           : 0
-      }),`;
+        }),`;
     });
 
     return str.substring(0, str.length - 1);
@@ -87,6 +82,7 @@ const Insert = () => {
   return (
     
     <div className="relative  max-w-2xl mt-10 mx-10">
+
       <Header  title="FILE UPLOAD UTILITY (ONLY EXCEL FILE)" />
       <div
         className={`border-2 rounded p-4 mb-4 text-center ${
@@ -108,9 +104,8 @@ const Insert = () => {
 
         {uploadStatus !== null && (
           <p
-            className={`blinking-border text-xl ${
-              uploadStatus ? "text-green-500" : "text-red-500"
-            } mb-4`}
+            className={`blinking-border text-xl ${uploadStatus ? "text-green-500" : "text-red-500"
+              } mb-4`}
           >
             {uploadStatus
               ? "Data successfully inserted in database"
@@ -128,13 +123,14 @@ const Insert = () => {
           <button onClick={() => handleButtonClick()}>
             <a
               href="#_"
+
               className={`px-20 py-2.5 relative rounded group font-medium text-white inline-block blinking-border ${
                 uploadStatus === true
                   ? "bg-green-400"
                   : uploadStatus === false
-                  ? "bg-red-400"
-                  : "bg-gradient-to-br from-purple-600 to-blue-500"
-              }`}
+                    ? "bg-red-400"
+                    : "bg-gradient-to-br from-purple-600 to-blue-500"
+                }`}
             >
               <span className="absolute top-0 left-0 w-full h-full rounded opacity-50 filter blur-sm bg-gradient-to-br from-purple-600 to-blue-500"></span>
               <span className="h-full w-full inset-0 absolute mt-0.5 ml-0.5 bg-gradient-to-br filter group-active:opacity-0 rounded opacity-50 from-purple-600 to-blue-500"></span>

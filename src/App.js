@@ -12,6 +12,7 @@ import Insert from "./components/Insert";
 import EmailUtility from './components/Email'
 import JewelleryGrid from "./AgGrid/JewelleryGrid";
 import DiamondGrid from "./AgGrid/DiamondGrid";
+import Ecommerce from "./scenes/ecommerce/Ecommerce";
 
 import MenuItemForm from "./components/Menuitem"
 import AdminPanelForm from "./components/Adminpanel";
@@ -27,7 +28,7 @@ function App() {
         <CssBaseline />
         <div className="app">
           <Sidebar isSidebar={isSidebar} />
-          <main className="content">
+          <main className="content" style={{padding:'2vh'}}>
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
               <Route path="/" element={<Dashboard />} />
@@ -39,6 +40,7 @@ function App() {
               <Route path ='/diamond' element={<DiamondGrid/>}/>
               <Route path ='/menuitemform' element={<MenuItemForm/>}/>
               <Route path ='/adminpanel' element={<AdminPanelForm/>}/>
+              <Route path='/ecommerce' element={<Ecommerce />} />
             </Routes>
           </main>
         </div>

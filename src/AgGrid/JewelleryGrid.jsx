@@ -1,21 +1,18 @@
-import React, { useState } from "react";
-import { AgGridReact } from "ag-grid-react"; // React Grid Logic
-import "ag-grid-community/styles/ag-grid.css"; // Core CSS
-import "ag-grid-community/styles/ag-theme-quartz.css"; // Theme
+import React from "react";
+import { AgGridReact } from "ag-grid-react";
+import "ag-grid-community/styles/ag-grid.css";
+import "ag-grid-community/styles/ag-theme-quartz.css";
 import "ag-grid-enterprise";
 import { JwelleryColsDefs, JwelleryData } from "../assets/JewelleryData";
 import { useTheme } from "@mui/material";
-import Header from "../components/Header"
+import Header from "../components/Header";
 
 const JewelleryGrid = () => {
-  const [rowData, setRowData] = useState(JwelleryData);
-  const [colDefs, setColDefs] = useState(JwelleryColsDefs);
   const theme = useTheme();
 
   return (
-    
     <>
-     <Header title="JEWELLERY DATA"/>
+      <Header title="JEWELLERY DATA" />
       <div
         className={
           theme.palette.mode === "light"
@@ -25,8 +22,8 @@ const JewelleryGrid = () => {
         style={{ height: 500 }}
       >
         <AgGridReact
-          rowData={rowData}
-          columnDefs={colDefs}
+          rowData={JwelleryData}
+          columnDefs={JwelleryColsDefs}
           rowSelection={"multiple"}
           rowMultiSelectWithClick={true}
           rowDragManaged={true}

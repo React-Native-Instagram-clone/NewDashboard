@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Box,
   Button,
-  IconButton,
+  // IconButton,
   Typography,
   useTheme,
   useMediaQuery,
@@ -15,12 +15,9 @@ import PointOfSaleIcon from '@mui/icons-material/PointOfSale';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import TrafficIcon from '@mui/icons-material/Traffic';
 import Header from '../../components/Header';
-import LineChart from '../../components/LineChart';
-import GeographyChart from '../../components/GeographyChart';
-import BarChart from '../../components/BarChart';
 import StatBox from '../../components/StatBox';
 import LogoutIcon from '@mui/icons-material/Logout';
-import ProgressCircle from '../../components/ProgressCircle';
+
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -139,47 +136,7 @@ const Dashboard = () => {
           />
         </Box>
 
-        {/* ROW 2 */}
-        <Box
-          gridColumn={isMobile ? 'span 12' : 'span 8'}
-          gridRow={isMobile ? 'span 1' : 'span 2'}
-          backgroundColor={colors.primary[400]}
-        >
-          <Box
-            mt={isMobile ? '10px' : '25px'}
-            p={isMobile ? '0 10px' : '0 30px'}
-            display="flex"
-            justifyContent={isMobile ? 'space-around' : 'space-between'}
-            alignItems="center"
-          >
-            <Box>
-              <Typography
-                variant={isMobile ? 'h6' : 'h5'}
-                fontWeight="600"
-                color={colors.grey[100]}
-              >
-                Revenue Generated
-              </Typography>
-              <Typography
-                variant={isMobile ? 'h4' : 'h3'}
-                fontWeight="bold"
-                color={colors.greenAccent[500]}
-              >
-                $23,452.56
-              </Typography>
-            </Box>
-            <Box>
-              <IconButton>
-                <DownloadOutlinedIcon
-                  sx={{ fontSize: isMobile ? '20px' : '26px', color: colors.greenAccent[500] }}
-                />
-              </IconButton>
-            </Box>
-          </Box>
-          <Box height={isMobile ? '200px' : '250px'} m={isMobile ? '0' : '-20px 0 0 0'}>
-            <LineChart isDashboard={true} />
-          </Box>
-        </Box>
+       
         <Box
           gridColumn={isMobile ? 'span 12' : 'span 4'}
           gridRow={isMobile ? 'span 1' : 'span 2'}
@@ -231,66 +188,7 @@ const Dashboard = () => {
           ))}
         </Box>
 
-        {/* ROW 3 */}
-        <Box
-          gridColumn={isMobile ? 'span 12' : 'span 4'}
-          gridRow={isMobile ? 'span 1' : 'span 2'}
-          backgroundColor={colors.primary[400]}
-          p={isMobile ? '20px 10px' : '30px'}
-        >
-          <Typography variant={isMobile ? 'h6' : 'h5'} fontWeight="600">
-            Campaign
-          </Typography>
-          <Box
-            display="flex"
-            flexDirection="column"
-            alignItems={isMobile ? 'center' : 'flex-start'}
-            mt={isMobile ? '15px' : '25px'}
-          >
-            <ProgressCircle size={isMobile ? '100' : '125'} />
-            <Typography
-              variant={isMobile ? 'h6' : 'h5'}
-              color={colors.greenAccent[500]}
-              sx={{ mt: isMobile ? '10px' : '15px' }}
-            >
-              $48,352 revenue generated
-            </Typography>
-            <Typography>Includes extra misc expenditures and costs</Typography>
-          </Box>
-        </Box>
-        <Box
-          gridColumn={isMobile ? 'span 12' : 'span 4'}
-          gridRow={isMobile ? 'span 1' : 'span 2'}
-          backgroundColor={colors.primary[400]}
-        >
-          <Typography
-            variant={isMobile ? 'h6' : 'h5'}
-            fontWeight="600"
-            sx={{ padding: isMobile ? '20px 10px 0 10px' : '30px 30px 0 30px' }}
-          >
-            Sales Quantity
-          </Typography>
-          <Box height={isMobile ? '150px' : '250px'} mt={isMobile ? '-20px' : '0'}>
-            <BarChart isDashboard={true} />
-          </Box>
-        </Box>
-        <Box
-          gridColumn={isMobile ? 'span 12' : 'span 4'}
-          gridRow={isMobile ? 'span 1' : 'span 2'}
-          backgroundColor={colors.primary[400]}
-          padding={isMobile ? '20px 10px' : '30px'}
-        >
-          <Typography
-            variant={isMobile ? 'h6' : 'h5'}
-            fontWeight="600"
-            sx={{ marginBottom: isMobile ? '10px' : '15px' }}
-          >
-            Geography Based Traffic
-          </Typography>
-          <Box height={isMobile ? '100px' : '200px'}>
-            <GeographyChart isDashboard={true} />
-          </Box>
-        </Box>
+        
       </Box>
     </Box>
   );

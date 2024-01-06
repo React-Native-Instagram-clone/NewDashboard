@@ -20,6 +20,7 @@ const Insert = () => {
           ? row["Start Price in US $"]
           : 0
         }),`;
+        return null; 
     });
 
     return str.substring(0, str.length - 1);
@@ -33,9 +34,10 @@ const Insert = () => {
         const workbook = XLSX.read(data, { type: "array" });
         const sheetName = workbook.SheetNames[0];
         const excelData = XLSX.utils.sheet_to_json(workbook.Sheets[sheetName]);
-        setExcelData(excelData);
+        // setExcelData(excelData);
         const values = jsonToString(excelData);
 
+        console.log(excelData);
         // Update the following axios.post call to handle success and failure
         axios
           .post("http://dashboard-server-esamyak.vercel.app/api/create", {

@@ -21,6 +21,8 @@ import EmailIcon from '@mui/icons-material/Email';
 import DiamondOutlinedIcon from '@mui/icons-material/DiamondOutlined';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
 import ListIcon from '@mui/icons-material/List';
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import anu from "../../assets/anu.jpg"
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -95,6 +97,8 @@ const Sidebar = () => {
             )}
           </MenuItem>
 
+
+
           {!isCollapsed && (
             <Box mb="25px">
               <Box display="flex" justifyContent="center" alignItems="center">
@@ -102,7 +106,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/.png`}
+                  src={anu}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -130,8 +134,16 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            
+            <Item
+              title="Ecommerce"
+              to="/ecommerce" // Make sure this points to the correct route
+              icon={<ShoppingCartIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
-            {signedInUser === 'Auc' || signedInUser === 'Admin' || signedInUser === 'Superadmin'||signedInUser===null ? <div>
+            {signedInUser === 'Auc' || signedInUser === 'Admin' || signedInUser === 'Superadmin' || signedInUser === null ? <div>
               <Typography
                 variant="h6"
                 color={colors.grey[300]}
@@ -169,7 +181,7 @@ const Sidebar = () => {
               />
             </div> : null}
 
-            {signedInUser === 'Bid' || signedInUser === 'Admin' || signedInUser === 'Superadmin'||signedInUser===null ? <div>
+            {signedInUser === 'Bid' || signedInUser === 'Admin' || signedInUser === 'Superadmin' || signedInUser === null ? <div>
               <Typography
                 variant="h6"
                 color={colors.grey[300]}
@@ -207,7 +219,7 @@ const Sidebar = () => {
               />
             </div> : null}
 
-            {signedInUser === 'Admin' || signedInUser === 'Superadmin'||signedInUser===null ? <div>
+            {signedInUser === 'Admin' || signedInUser === 'Superadmin' || signedInUser === null ? <div>
               <Typography
                 variant="h6"
                 color={colors.grey[300]}
@@ -245,7 +257,7 @@ const Sidebar = () => {
               />
             </div> : null}
 
-            {signedInUser === 'Superadmin'||signedInUser===null ? <div>
+            {signedInUser === 'Superadmin' || signedInUser === null ? <div>
               <Typography
                 variant="h6"
                 color={colors.grey[300]}
@@ -271,6 +283,7 @@ const Sidebar = () => {
           </Box>
         </Menu>
       </ProSidebar>
+
     </Box>
   );
 };

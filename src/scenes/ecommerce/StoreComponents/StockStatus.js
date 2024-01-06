@@ -7,6 +7,7 @@ const StockStatus = ({ inStock }) => {
         inStock ? "text-green-600" : "text-red-500"
       }`}
     >
+      {/* this is for availablity and non availaibility */}
       {inStock ? "In Stock" : "Out of Stock"}
     </h1>
   );

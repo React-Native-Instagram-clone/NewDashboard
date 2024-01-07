@@ -142,6 +142,13 @@ const Sidebar = () => {
               selected={selected}
               setSelected={setSelected}
             />
+            <Item
+              title="Product Detail"
+              to="/productdetail" // Make sure this points to the correct route
+              icon={<ShoppingCartIcon />}
+              selected={selected}
+              setSelected={setSelected}
+            />
 
             {signedInUser === 'Auc' || signedInUser === 'Admin' || signedInUser === 'Superadmin' || signedInUser === null ? <div>
               <Typography

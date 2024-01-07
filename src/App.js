@@ -13,6 +13,8 @@ import EmailUtility from './components/Email'
 import JewelleryGrid from "./AgGrid/JewelleryGrid";
 import DiamondGrid from "./AgGrid/DiamondGrid";
 import Ecommerce from "./scenes/ecommerce/Ecommerce";
+import ProductDetail from "./scenes/ecommerce/ProductDetail";
+
 
 import MenuItemForm from "./components/Menuitem"
 import AdminPanelForm from "./components/Adminpanel";
@@ -41,6 +43,7 @@ function App() {
               <Route path ='/menuitemform' element={<MenuItemForm/>}/>
               <Route path ='/adminpanel' element={<AdminPanelForm/>}/>
               <Route path='/ecommerce' element={<Ecommerce />} />
+              <Route path='/productdetail' element={<ProductDetail />} />
             </Routes>
           </main>
         </div>

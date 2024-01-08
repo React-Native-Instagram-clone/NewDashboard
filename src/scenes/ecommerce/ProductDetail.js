@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Header from "../../components/Header";
 import saree from "../../assets/ecommerce/saree1.jpg";
+import saree2 from "../../assets/ecommerce/saree2.jpg";
+import saree3 from "../../assets/ecommerce/saree3.jpg";
 import ReactImageMagnify from "react-image-magnify";
 import {toast,Toaster} from "react-hot-toast";
 
@@ -14,6 +16,11 @@ export default function ProductDetail() {
   ];
 
   const [selectedSize, setSelectedSize] = useState(null);
+  const [selectedimage, setSelectedimage] = useState(saree);
+
+  const handleImageClick=(newImage)=>{
+    setSelectedimage(newImage);
+  }
 
   const onAdd=()=>{
     toast.success("Product Added to Cart!!")
@@ -25,17 +32,37 @@ export default function ProductDetail() {
 
       <div className="w-[90%] mx-auto my-[6vh]">
         <div className="flex flex-col md:flex-row justify-start gap-[3vh]">
-          <div className=" flex flex-col-reverse justify-evenly md:flex-row gap-[2vh]">
+          <div className="flex flex-row">
+            <div className="mr-[1vh]">
+              <img 
+                src={saree} 
+                alt="" 
+                className="w-[12vh] mb-[1vh] cursor-pointer"
+                onClick={()=>handleImageClick(saree)}
+                />
+              <img 
+                src={saree2} 
+                alt="" 
+                className="w-[12vh] mb-[1vh] cursor-pointer"
+                onClick={()=>handleImageClick(saree2)}
+                />
+              <img 
+                src={saree3} 
+                alt="" 
+                className="w-[12vh] cursor-pointer"
+                onClick={()=>handleImageClick(saree3)}
+              />
+            </div>
             <div id="magnifier">
               <ReactImageMagnify
                 {...{
                   smallImage: {
                     alt: "productimage",
                     isFluidWidth: true,
-                    src: saree, 
+                    src: selectedimage, 
                   },
                   largeImage: {
-                    src: saree,
+                    src: selectedimage,
                     width:530,
                     height:700,
                   },

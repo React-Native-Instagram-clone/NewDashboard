@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,17 +25,16 @@ const ProductCard = ({
 
   const discount = () => {
     const discountPrice = productcutprice - productmrp;
-    const discountPercentage =
-      (discountPrice / productcutprice) * 100;
+    const discountPercentage = (discountPrice / productcutprice) * 100;
     return discountPercentage.toFixed(0);
   };
-  
 
   return (
     <div className="pt-[2vh]">
       <div className="my-[2vh]">
         <div className="w-[30vh] p-[1vh] shadow-xl">
           <div className="relative h-[40vh]">
+          <a href="/productdetail" className="">
             <Swiper
               slidesPerView={1}
               spaceBetween={30}
@@ -49,11 +49,15 @@ const ProductCard = ({
             >
               {productimg.map((image, index) => (
                 <SwiperSlide key={index}>
-                  <img src={image} className="w-[30vh]" alt={`Product ${index}`} />
+                  <img
+                    src={image}
+                    className="w-[30vh]"
+                    alt={`Product ${index}`}
+                  />
                 </SwiperSlide>
               ))}
             </Swiper>
-
+            </a>  
             <div className="absolute bg-white p-[0.5vh] z-50 top-[1vh] right-[1vh] cursor-pointer">
               {clickheart ? (
                 <FavoriteIcon className="text-pink-600" onClick={handleClick} />
@@ -65,11 +69,11 @@ const ProductCard = ({
               )}
             </div>
             <div className="absolute z-20 bg-white left-[1vh] bottom-[4vh] font-semibold text-[2.5vh] py-[0.5vh] px-[1vh] text-green-600">
-            {discount() === "0"
-                ? "0%"
-                : `(${discount()}% OFF)`}
+              {discount() === "0" ? "0%" : `(${discount()}% OFF)`}
             </div>
           </div>
+          
+
           <div className="flex flex-row justify-between my-[1vh]">
             <h1 className="text-[2.6vh]  font-semibold">{productname}</h1>
             <h2 className="text-[2.4vh] text-green-500  mr-[1vh] flex flex-row items-center">
@@ -86,7 +90,6 @@ const ProductCard = ({
                 {productcutprice}
               </span>
             </div>
-            
           </div>
           <StockStatus inStock={stock} />
         </div>

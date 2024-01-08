@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "react";
 import ProductCard from "./StoreComponents/ProductCard";
 import Header from "../../components/Header";
 import kurti from "../../assets/ecommerce/kurti.jpg";
@@ -18,10 +19,8 @@ import dress from "../../assets/ecommerce/dress.jpg";
 import dress2 from "../../assets/ecommerce/dress2.jpg";
 import dress3 from "../../assets/ecommerce/dress3.jpg";
 
-
 export default function Ecommerce() {
-  
-  const products=[
+  const products = [
     {
       productimg: [kurti, kurti2, kurti3, kurti4, kurti5],
       productname: "Indo Era",
@@ -40,51 +39,52 @@ export default function Ecommerce() {
     },
     {
       productimg: [top, top2, top3],
-      productname:"QOMN",
-      productsubhead:"Pure Cotton Longline Top",
-      productmrp:"1029",
-      productcutprice:"1599",
+      productname: "QOMN",
+      productsubhead: "Pure Cotton Longline Top",
+      productmrp: "1029",
+      productcutprice: "1599",
       stock: true,
     },
     {
-      productimg: [skirt,skirt2],
-      productname:"Berrylush",
-      productsubhead:"Graphic Roman Column Skirt",
-      productmrp:"899",
-      productcutprice:"1599",
+      productimg: [skirt, skirt2],
+      productname: "Berrylush",
+      productsubhead: "Graphic Roman Column Skirt",
+      productmrp: "899",
+      productcutprice: "1599",
       stock: false,
     },
     {
       productimg: [dress, dress2, dress3],
-      productname:"Janasya",
-      productsubhead:"Pink Midi Dress",
-      productmrp:"689",
-      productcutprice:"1899",
+      productname: "Janasya",
+      productsubhead: "Pink Midi Dress",
+      productmrp: "689",
+      productcutprice: "1899",
       stock: true,
     },
+  ];
 
-  ]
   return (
     <div className="pt-[2vh]">
       <Header title="Welcome to E-Samyak Store" />
 
       <div className="flex flex-row flex-wrap justify-between items-center ">
+
         
-        
-      {products.map((product, index) => (
-          <ProductCard
-            key={index}
-            productimg={product.productimg}
-            productname={product.productname}
-            productsubhead={product.productsubhead}
-            productmrp={product.productmrp}
-            productcutprice={product.productcutprice}
-            stock={product.stock}
-          />
-        ))}
+          {products.map((product, index) => (
+            <ProductCard
+              key={index}
+              productimg={product.productimg}
+              productname={product.productname}
+              productsubhead={product.productsubhead}
+              productmrp={product.productmrp}
+              productcutprice={product.productcutprice}
+              stock={product.stock}
+              />
+
+          ))}
+
+
       </div>
-
-
     </div>
   );
 }
